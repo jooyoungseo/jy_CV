@@ -1,0 +1,6 @@
+vitae::moderncv:
+  theme: classic
+  fig_caption: yes
+  keep_tex: yes
+  pandoc_args:
+    - --lua-filter="lua/multiple-bibliographies.lua"

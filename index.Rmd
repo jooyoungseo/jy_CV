@@ -16,13 +16,13 @@ aboutme: |
 date: "`r format(Sys.time(), '%B %Y')`"
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
-output:
-  vitae::moderncv:
-    theme: classic
-    fig_caption: yes
-    keep_tex: yes
-    pandoc_args:
-      - --lua-filter="lua/multiple-bibliographies.lua"
+#output:
+#  vitae::moderncv:
+#    theme: classic
+#    fig_caption: yes
+#    keep_tex: yes
+#    pandoc_args:
+#      - --lua-filter="lua/multiple-bibliographies.lua"
 #      - !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
 #      - !expr system.file("resources", "lua", "multiple-bibliographies.lua", package = "vitae")
 bibliography_selected: "bib/selected.bib"
