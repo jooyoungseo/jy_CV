@@ -2,6 +2,7 @@ notes.txt
 data/Signature.png
 data/JooYoung Seo CV.docx
 docs/JooYoung_Seo_CV.tex
+docs/JooYoung_Seo_CV.log
 ^build\.bat$
 .Rhistory
 .RData
