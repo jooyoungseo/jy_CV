@@ -202,6 +202,8 @@ vitae::bibliography_entries("bib/github.bib")
 
 ## Officially Contributing R Packages
 
+* My name has been officially listed as a contributor for the following refereed open-source packages:
+
 ```{r contribute}
 ezpickr::pick("data/contribute.xlsx") %>%
   tidyr::fill(-why) %>%
