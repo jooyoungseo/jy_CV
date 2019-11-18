@@ -1,0 +1,7 @@
+notes.txt
+data/Signature.png
+data/JooYoung Seo CV.docx
+^build\.bat$
+.Rhistory
+.RData
+.Rproj.user

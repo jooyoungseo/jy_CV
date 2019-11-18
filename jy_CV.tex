@@ -1,0 +1,456 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 8 February 2019
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{HTML}{3873B3}% custom
+\definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\def\donothing#1{#1}
+\def\emaillink#1{#1}
+
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75,footskip=52pt]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+%%%% BIBLIOGRAPHY
+% Bibliography formatting
+
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
+
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[article]{url}{}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extradate}{}
+
+% No dot before number of articles
+\usepackage{xpatch}
+\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
+
+% Remove In: for an article.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{in}\intitlepunct}}}
+
+%\makeatletter
+%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
+%\makeatother
+
+\setlength{\bibitemsep}{1.8pt}
+\setlength{\bibhang}{.9cm}
+%\renewcommand{\bibfont}{\fontsize{12}{14}}
+
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
+\defbibenvironment{bibliography}
+{\list{}
+  {\setlength{\leftmargin}{\bibhang}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\bibitem}
+
+\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
+% Counters for keeping track of papers
+\newcounter{papers}
+
+\DeclareSortingTemplate{ty}{
+  \sort{
+    \field{title}
+  }
+  \sort{
+    \field{year}
+  }
+}
+\DeclareBibliographyCategory{bib-C:/test/jy_CV/bib/R-packages.bib-1527033}
+\DeclareBibliographyCategory{bib-C:/test/jy_CV/bib/github.bib-1581061}
+\bibliography{C:/test/jy_CV/bib/R-packages.bib, C:/test/jy_CV/bib/github.bib}
+
+% personal data
+\name{JooYoung}{Seo}
+\title{Ph.D.~Candidate (ABD)}
+\address{Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA}{}{}
+\phone[mobile]{+1 814-777-5825} % Phone number
+\email{\donothing{\href{mailto:jooyoung@psu.edu}{\nolinkurl{jooyoung@psu.edu}}}}
+\homepage{jooyoungseo.com} % Personal website
+\social[linkedin]{jooyoungseo}
+\social[twitter]{sjystu}
+\social[github]{jooyoungseo}
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+
+
+\quote{I am a learning scientist, software engineer, and accessibility professional.}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{
+	\cventry{#2}{#1}{#3}{#4}{}{{\ifx#5\empty\else{\begin{itemize}#5\end{itemize}}\fi}}}
+\def\detailedsection#1{\nopagebreak#1}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvitem{#2}{#1. #3}}
+\def\briefsection#1{\nopagebreak#1}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+
+\hypertarget{research-areas}{%
+\section{Research Areas}\label{research-areas}}
+
+\begin{itemize}
+\tightlist
+\item
+  Inclusive Makerspaces
+\item
+  Accessible STEM Learning
+\item
+  Computational Thinking for Learners with dis/ABILITIES
+\item
+  Inclusive CSCL (Computer-Supported Collaborative Learning)
+\item
+  Accessibility
+\item
+  Universal Design
+\item
+  Assistive Technology
+\end{itemize}
+
+\hypertarget{primary-research-methods}{%
+\section{Primary Research Methods}\label{primary-research-methods}}
+
+\begin{itemize}
+\tightlist
+\item
+  Supervised/Unsupervied Machine Learning-Based Text Mining
+\item
+  Computational Linguistics
+\item
+  Data Science-Based Reproducible Research
+\item
+  Quantitative Ethnography
+\end{itemize}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\detailedsection{\detaileditem{Ph.D. in Learning, Design, and Technology}{Aug. 2016 - Present}{The Pennsylvania State University}{University Park, PA}{\item{Expected graduation: May 2021.}\item{Dissertation Title: ``Discovering Informal Learning Cultures of Blind Individuals Pursuing STEM Disciplines: A Quantitative Ethnography Using Public Listserv Archives.''}\item{Committee members: Drs. Gabriela T. Richard (adviser; dissertation chair), Roy B. Clariana, ChanMin Kim, and Mary Beth Rosson.}}\detaileditem{M.Ed. in Learning, Design, and Technology}{Aug. 2014 - May. 2016}{The Pennsylvania State University}{University Park, PA}{\item{GPA 3.97/4.0.}}\detaileditem{B.A. in Education}{Mar. 2009 - Feb. 2014}{Sungkyunkwan University}{Seoul, South Korea}{\item{GPA 4.08/4.50.}}\detaileditem{B.A. in English Literature}{Mar. 2009 - Feb. 2014}{Sungkyunkwan University}{Seoul, South Korea}{\item{GPA 4.08/4.50.}}}
+
+\hypertarget{certificate}{%
+\section{Certificate}\label{certificate}}
+
+\detailedsection{\detaileditem{Certified Professional in Accessibility Core Competencies}{Apr. 2017 - Present}{International Association of Accessibility Professional}{Atlanta, GA}{\empty}\detaileditem{English Teacher Certificate for Secondary Education}{Feb. 2014 - Present}{Korean Ministry of Education}{Sejong, South Korea}{\empty}\detaileditem{General Education Teacher Certificate for Secondary Education}{Feb. 2014 - Present}{Korean Ministry of Education}{Sejong, South Korea}{\empty}}
+
+\hypertarget{research-experience}{%
+\section{Research Experience}\label{research-experience}}
+
+\detailedsection{\detaileditem{Graduate Assistant}{Aug. 2016 - Present}{IT Accessibility Team, Teaching and Learning with Technology (TLT)}{University Park, PA}{\item{Developing “Image ALT Text for HTML” and “Image ALT Text for Word” badges using the Penn State digital badges platform.}\item{Evaluating suitability of digital badges according to web content accessibility guidelines (WCAG) 2.0.}\item{Testing and consulting for accessible HTML5/CSS3 webpages for Penn State University sites and learning management tools (e.g., Angel, Canvas, Voice Thread, Adobe products, etc.)}\item{Engaged in a project for future research on making visualized statistical data accessible.}\item{Developed a package for statistical software R, called tactileR, which converts visual data into touchable graphs in conjunction with a Swell Form Heating Machine (portfolio of samples available upon request).}\item{Reference: https://github.com/jooyoungseo/tactileR.Testing and consulting for accessible HTML5/CSS3 webpages for Penn State University sites and learning management tools (e.g., Angel, Canvas, Voice Thread, Adobe products, etc.).}}\detaileditem{Graduate Researcher}{Aug. 2016 - Present}{Playful Learning and Inclusive Design Research Group}{University Park, PA}{\item{Conducting interaction analysis and microethnographic studies for Dr. Gabriela Richard's inclusive gaming for learning and accessible makerspaces for youth with diverse background.}}\detaileditem{Principal Investigator}{May. 2019 - Present}{Online Interactions of the Blind}{University Park, PA}{\item{Conducting quantitative ethnography research on how blind learners pursue STEM disciplines as captured through a large-scale  mailing listservs.}\item{Using data science, computational linguistics (i.e., unsupervised machine learning for text mining; natural language processing) approaches coupled with conventional ethnographic methods.}}\detaileditem{Project Manager}{May. 2018 - Present}{Accessible RMarkdown Online Writer (AROW) Project, Teaching and Learning with Technology (TLT)}{University Park, PA}{\item{Developed an accessible web application for people with dis/abilities to easily compose a high-quality scientific document based on LAMP, AJAX, R Markdown, and MathML.}}\detaileditem{Principal Investigator}{Jun. 2017 - Present}{Exploring Accessibility of Maker Toolkits}{University Park, PA}{\item{Conducting usability and design research on how to make current electronics and maker toolkits more accessible for learners with visual impairments.}}\detaileditem{Site Manager}{Feb. 2015 - Dec. 2015}{Learning2CC}{University Park, PA}{\item{Participated in an ongoing learning community project for sharing tips for video caption for deaf learners.}\item{Developed Learning2CC, the online community site, using the WordPress platform.}}\detaileditem{Graduate Researcher}{Sep. 2014 - May. 2016}{Avenue PM Research Group}{University Park, PA}{\item{Participated in Dr. Simon Hooper's grant project sponsored by the U.S. Department of Education Stepping Stones Phase II program.}\item{Improved web accessibility for deaf-blind learners by removing blockers on website platform.}}\detaileditem{Student Researcher}{Feb. 2012 - Mar. 2012}{The Ministry of Knowledge Economy and Seoul National University}{Seoul, South Korea}{\item{Visited various places in California, such as CSUN conference, museums, universities, and other publiclocations, to observe universal design products and services.}\item{Produced a comparison report on universal design products and services in Korea and the United States.}\item{Presented the report to the Quality of Life Technology team at Seoul National University.}}}
+
+\hypertarget{teaching-experience}{%
+\section{Teaching Experience}\label{teaching-experience}}
+
+\detailedsection{\detaileditem{Accessibility Instructor}{Mar. 2015 - Present}{IT Accessibility Team, Teaching and Learning with Technology (TLT)}{University Park, PA}{\item{Teaching over 30 staff members of the Penn State Accessibility team HTML5/CSS3/JavaScript coding and accessibility evaluation practice.}}\detaileditem{Assistant English Teacher}{Mar. 2013 - May. 2013}{Gunpo High School}{Gyeonggi, South Korea}{\item{Taught English to 10-grade high school students.}}}
+
+\hypertarget{working-experience}{%
+\section{Working Experience}\label{working-experience}}
+
+\detailedsection{\detaileditem{Co-Founder and Project Manager}{Jul. 2010 - Jun. 2011}{ICE Soft}{Seoul, South Korea}{\item{Co-founded and managed a start-up company to develop Android-based navigation App and assistive technology for blind people.}\item{Applied for and received a \$30,000 fund from the city of Seoul.}}\detaileditem{Intern}{May. 2010 - Nov. 2010}{National Human Rights Commission of Korea}{Seoul, South Korea}{\item{Investigated illegal cases of discrimination against the disabled with regard to voting.}\item{Interviewed the disabled who had experienced discrimination against their voting rights.}\item{Produced written report for National Human Rights Commission of Korea.}}}
+
+\hypertarget{awards-and-honors}{%
+\section{Awards and Honors}\label{awards-and-honors}}
+
+\detailedsection{\detaileditem{Cengage Best Doctoral Proposal Fellowship}{Oct. 2019}{The First International Conference on Quantitative Ethnography (in partnership with Cengage)}{Madison, WI}{\empty}\detaileditem{Andrew V. Kozak Memorial Fellowship}{2019}{The PDK Educational Foundation}{University Park, PA}{\empty}\detaileditem{AERA Pre-Conference Travel Award}{Apr. 2019}{The Spencer Foundation}{Toronto, ON, Canada}{\empty}\detaileditem{Delta Gamma Golden Anchor Award}{2017}{The Pennsylvania State University}{University Park, PA}{\empty}\detaileditem{Delta Gamma Golden Anchor Award}{2015}{The Pennsylvania State University}{University Park, PA}{\empty}\detaileditem{ACM Richard Tapia Celebration of Diversity in Computing Conference Scholarship}{2017}{The National Science Foundation (NSF)}{Atlanta, GA}{\empty}\detaileditem{ACM Student Research Competition Travel Award}{2017}{Microsoft Research}{Atlanta, GA}{\empty}\detaileditem{Summer Tuition Assistance Funding}{2017}{College of Education}{University Park, PA}{\empty}\detaileditem{Graduate Student Travel Grant}{Aug. 2016 - Present}{College of Education}{University Park, PA}{\empty}\detaileditem{Graduate Assistantship}{Aug. 2016 - Present}{Teaching and Learning with Technology}{University Park, PA}{\empty}\detaileditem{Outstanding Academic Award}{2014 - 2019}{Hyomyoung Scholarship}{Seoul, South Korea}{\empty}\detaileditem{Academic Scholarship for Doctoral Research}{2016 - 2018}{ChungInwook Scholarship Foundation}{Seoul, South Korea}{\empty}\detaileditem{All Nations Church Graduate Scholarship}{2016}{ANC Scholarship Foundation}{Lake View Terrace, CA}{\empty}\detaileditem{Future Interdisciplinary Study of Global Korea Scholarship for Master’s Research}{2014 - 2016}{National Institute for International Education, Korean Government}{Seoul, South Korea}{\empty}\detaileditem{Academic Achievement Scholarship}{2009 - 2013}{Sungkyunkwan University}{Seoul, South Korea}{\empty}}
+
+\hypertarget{grants}{%
+\section{Grants}\label{grants}}
+
+\detailedsection{\detaileditem{Providing Touchable Knowledge Structure Graphic Feedback for Blind Online Learners: Tablet-Based Haptic Feedback and Paper-Based Tactile Feedback}{Mar. 2016 - Aug. 2017}{Center for Online Innovation in Learning, The Pennsylvania State University}{University Park, PA}{\item{Co-led (Co-PI) a development project funded by Penn State to provide blind online learners with accessible network graphs that measure students’ knowledge structure.}\item{Developed a prototype website and mobile app for accessible knowledge structure.}\item{Funding amount: \$33,060}}\detaileditem{ICE Soft: I See Everything through Assistive Technology}{Jul. 2010 - Jun. 2011}{Seed Funding for Start-Up Company for the Youth, City of Seoul}{Seoul, South Korea}{\item{Co-Founded and Project-Managed ICE Soft.}\item{Worked with a team and developed an gps app for the blind.}\item{Funding amount: \$30,000 USD.}}}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{selected-publications}{%
+\subsection{Selected Publications}\label{selected-publications}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_selected}{}
+\leavevmode\hypertarget{ref-seo2019maker}{}%
+Seo, J. (2019). Is the maker movement inclusive of ANYONE?: Three accessibility considerations to invite blind makers to the making world. \emph{TechTrends}, \emph{63}(5), 514--520. \url{https://doi.org/10.1007/s11528-019-00377-3}
+
+\leavevmode\hypertarget{ref-seo2019arow}{}%
+Seo, J., \& McCurry, S. (2019). LaTeX is not easy: Creating accessible scientific documents with r markdown. \emph{Journal on Technology and Persons with Disabilities}, \emph{7}, 157--171.
+
+\leavevmode\hypertarget{ref-seo2018accessibility}{}%
+Seo, J., \& Richard, G. T. (2018). Accessibility, making and tactile robotics: Facilitating collaborative learning and computational thinking for learners with visual impairments. In J. Kay \& R. Luckin (Eds.), \emph{Rethinking learning in the digital age: Making the learning sciences count, 13th international conference of the learning sciences (icls) 2018} (Vol. 3, pp. 1755--1757). London, UK: International Society of the Learning Sciences (ISLS).
+
+\leavevmode\hypertarget{ref-seo2017embracing}{}%
+Seo, J., AlQahtani, M., Ouyang, X., \& Borge, M. (2017). Embracing learners with visual impairments in cscl. In B. K. Smith, M. Borge, E. Mercier, \& K. Y. Lim (Eds.), \emph{Making a difference: Prioritizing equity and access in cscl, 12th international conference on computer supported collaborative learning (cscl) 2017} (Vol. 2). Philadelphia, PA: International Society of the Learning Sciences (ISLS).
+
+\endgroup
+
+\hypertarget{refereed-journal-papers}{%
+\subsection{Refereed Journal Papers}\label{refereed-journal-papers}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_journals}{}
+\leavevmode\hypertarget{ref-doi:10.1111ux2fnuf.12328}{}%
+Choi, S., \& Seo, J. (2019). Analysis of caregiver burden in palliative care: An integrated review. \emph{Nursing Forum}, \emph{54}(2), 280--290. \url{https://doi.org/10.1111/nuf.12328}
+
+\leavevmode\hypertarget{ref-choi2019heart}{}%
+Choi, S., \& Seo, J. (2019). Heart failure research using text mining: A systematic review. \emph{NURSING RESEARCH}, \emph{68}(2), E119--E120.
+
+\leavevmode\hypertarget{ref-choi2019trends}{}%
+Choi, S., \& Seo, J. (2019). Trends in self-management among adults with heart failure from 2011 to 2016 using the national health and nutrition examination surveys. \emph{Journal of Cardiac Failure}, \emph{25}(8), S4. \url{https://doi.org/10.1016/j.cardfail.2019.07.540}
+
+\leavevmode\hypertarget{ref-seo2019maker}{}%
+Seo, J. (2019). Is the maker movement inclusive of ANYONE?: Three accessibility considerations to invite blind makers to the making world. \emph{TechTrends}, \emph{63}(5), 514--520. \url{https://doi.org/10.1007/s11528-019-00377-3}
+
+\leavevmode\hypertarget{ref-seo2019arow}{}%
+Seo, J., \& McCurry, S. (2019). LaTeX is not easy: Creating accessible scientific documents with r markdown. \emph{Journal on Technology and Persons with Disabilities}, \emph{7}, 157--171.
+
+\leavevmode\hypertarget{ref-choi2018effects}{}%
+Choi, S., \& Seo, J. (2018). Effects of nonpharmacological interventions for fatigue in patients with heart failure: A systematic review and meta-analysis. \emph{Journal of Cardiac Failure}, \emph{24}(8), S73--S74.
+
+\endgroup
+
+\hypertarget{papers-in-refereed-conference-proceedings}{%
+\subsection{Papers in Refereed Conference Proceedings}\label{papers-in-refereed-conference-proceedings}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_proceedings}{}
+\leavevmode\hypertarget{ref-choi2019exploring}{}%
+Choi, S., Seo, J., \& Kitko, L. (2019). Exploring the lived experience of a family member with advanced heart failure: Using a text mining approach. \emph{The first international conference on quantitative ethnography: Poster session}, S8--S9. Madison, WI.
+
+\leavevmode\hypertarget{ref-seo2019discovering}{}%
+Seo, J. (2019). Discovering informal learning cultures of blind individuals pursuing stem disciplines: A quantitative ethnography using listserv archives. \emph{The first international conference on quantitative ethnography: Doctoral consortium}, S66--S67. Madison, WI.
+
+\leavevmode\hypertarget{ref-seo2018making}{}%
+Seo, J. (2018). Accessibility and inclusivity in making: Engaging learners with all abilities in making activities. In \emph{Proceedings of the 3rd learning sciences graduate student conference} (pp. 141--142). Nashville, TN: LSGSC Planning Team.
+
+\leavevmode\hypertarget{ref-seo2018accessibility}{}%
+Seo, J., \& Richard, G. T. (2018). Accessibility, making and tactile robotics: Facilitating collaborative learning and computational thinking for learners with visual impairments. In J. Kay \& R. Luckin (Eds.), \emph{Rethinking learning in the digital age: Making the learning sciences count, 13th international conference of the learning sciences (icls) 2018} (Vol. 3, pp. 1755--1757). London, UK: International Society of the Learning Sciences (ISLS).
+
+\leavevmode\hypertarget{ref-konecki2017role}{}%
+Konecki, M., Lovrenčić, S., Seo, J., \& LaPierre, C. (2017). The role of ict in aiding visually impaired students and professionals. \emph{Proceedings of the 11th Multidisciplinary Academic Conference}, 148.
+
+\leavevmode\hypertarget{ref-seo2017embracing}{}%
+Seo, J., AlQahtani, M., Ouyang, X., \& Borge, M. (2017). Embracing learners with visual impairments in cscl. In B. K. Smith, M. Borge, E. Mercier, \& K. Y. Lim (Eds.), \emph{Making a difference: Prioritizing equity and access in cscl, 12th international conference on computer supported collaborative learning (cscl) 2017} (Vol. 2). Philadelphia, PA: International Society of the Learning Sciences (ISLS).
+
+\endgroup
+
+\hypertarget{working-papers-under-revision-or-review}{%
+\subsection{Working Papers under Revision or Review}\label{working-papers-under-revision-or-review}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_working_paper}{}
+\leavevmode\hypertarget{ref-dsq}{}%
+Richard, G. T., \& Seo, J. (under review). Able to play, ready to learn: Proposing an intersectional, critical dis/abilities framework for research, design and practice in video games and learning. \emph{Disability Studies Quarterly}.
+
+\endgroup
+
+\hypertarget{software-developments-and-publications}{%
+\section{Software Developments and Publications}\label{software-developments-and-publications}}
+
+\hypertarget{peer-reviewed-data-mining-packages}{%
+\subsection{Peer-Reviewed Data Mining Packages}\label{peer-reviewed-data-mining-packages}}
+
+\defbibheading{bib-C:/test/jy_CV/bib/R-packages.bib-1527033}{}
+\addtocategory{bib-C:/test/jy_CV/bib/R-packages.bib-1527033}{R-ezpickr,
+R-mboxr,
+R-youtubecaption}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-C:/test/jy_CV/bib/R-packages.bib-1527033,heading=none]\setcounter{papers}{0}
+
+\nocite{R-ezpickr,
+R-mboxr,
+R-youtubecaption}
+
+\hypertarget{open-source-project-on-github}{%
+\subsection{Open-Source Project on GitHub}\label{open-source-project-on-github}}
+
+\defbibheading{bib-C:/test/jy_CV/bib/github.bib-1581061}{}
+\addtocategory{bib-C:/test/jy_CV/bib/github.bib-1581061}{R-ezviewr,
+R-tactileR,
+webrender}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-C:/test/jy_CV/bib/github.bib-1581061,heading=none]\setcounter{papers}{0}
+
+\nocite{R-ezviewr,
+R-tactileR,
+webrender}
+
+\hypertarget{officially-contributing-r-packages}{%
+\subsection{Officially Contributing R Packages}\label{officially-contributing-r-packages}}
+
+\detailedsection{\detaileditem{bookdown: Authoring Books and Technical Documents with R Markdown}{2019}{Yihui Xie}{https://cran.r-project.org/web/packages/bookdown/}{\item{Developed rtf\_document2() function to enable R markdown users to utilize cross-references for figures and tables in an RTF file format through bookdown package.}}\detaileditem{wordcountaddin: Word counts and readability statistics in R markdown documents}{2019}{Ben Marwick}{https://github.com/benmarwick/wordcountaddin}{\item{Contributed text\_stats() function for R markdown users to Get a word count and some other stats for selected text (excluding code chunks and inline code).}}\detaileditem{BrailleR: Improved Access for Blind Users}{2019}{A. Jonathan R. Godfrey}{https://cran.r-project.org/web/packages/BrailleR/}{\item{Contributed BRLThis() function to enable blind R users to convert a graph into a pdf ready for embossing in Braille.}}}
+
+\hypertarget{presentations}{%
+\section{Presentations}\label{presentations}}
+
+\hypertarget{peer-reviewed-conference-posters-and-presentations}{%
+\subsection{Peer-Reviewed Conference Posters and Presentations}\label{peer-reviewed-conference-posters-and-presentations}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+Seo, J., \& Richard, G. T. (2020, April). \emph{Maker inclusivity = maker accessibility: further interrogations for diverse participation}. Poster presented at the annual meeting of the American Educational Research Association (AERA), San Francisco, CA.
+
+Seo, J. (2019, October). \emph{Discovering informal learning cultures of blind individuals pursuing STEM disciplines: a quantitative ethnography using listserv archives}. Poster presented at the Doctoral Consortium of the first International Conference on Quantitative Ethnography (ICQE), Madison, WI. \emph{Awarded the best doctoral proposal fellowship}.
+
+Seo, J., \& McCurry, S. (2019, March). \emph{LaTeX is NOT easy: creating accessible scientific documents with R markdown}. Paper presented at the annual meeting of the CSUN Assistive Technology Conference, Northridge, CA.
+
+Seo, J. (2018, October). \emph{Accessibility and inclusivity in making: engaging learners with all abilities in making activities}. Paper presented at the annual meeting of the Learning Sciences Graduate Student Conference (LSGSC), Nashville, TN.
+
+Seo, J., \& Richard, G. T. (2018, June). \emph{Accessibility, making and tactile robotics: facilitating collaborative learning and computational thinking for learners with visual impairments}. Poster presented at the 13th International Conference of the Learning Sciences (ICLS), London, UK.
+
+Seo, J., \& Richard, G. T. (2018, April). \emph{Furthering inclusivity in making: a framework for accessible design of makerspaces for learners with disabilities}. Poster presented at the annual meeting of the American Educational Research Association (AERA), New York City, NY.
+
+Seo, J. (2017, September). \emph{Tactile access to visualized statistical data using R}. Poster presented at the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, Atlanta, GA.
+
+Seo, J., AlQahtani, M., Ouyang, X., \& Borge, M. (2017, June). \emph{Embracing learners with visual impairments in CSCL}. Paper presented at the 12th International Conference on Computer Supported Collaborative Learning (CSCL), Philadelphia, PA.
+
+Liao, J., Patcyk, M., Seo, J., \& Hooper, S. (2016, October). \emph{Using hierarchical linear modeling to measure growth rate in a gamified CBM environment}. Paper presented at the annual meeting of the Northeastern Educational Research Association (NERA), Trumbull, CT.
+
+\endgroup
+
+\hypertarget{invited-guest-lectures}{%
+\subsection{Invited Guest Lectures}\label{invited-guest-lectures}}
+
+\detailedsection{\detaileditem{Blockers for Users on a Screen Reader}{Oct. 2019}{EIT Accessibility Group, The Pennsylvania State University}{University Park, PA}{\item{Invited guest talk to a webinar to train Penn State instructional designers for key WCAG 2.1 guidelines to make content more accessible including: image alt text, clear link text and heading structure, proper table structure, form and button labels, the need for keyboard functionality and how to convey information regardless of visual formatting.}}\detaileditem{A Small Step to Take Your Data Analysis to Another Level}{Jul. 2019}{Chonnam National University}{Gwangju, South Korea}{\item{Invited guest talk to CNU to teach nursing faculty and students for basic concept of machine learning, computer-assisted text mining, and topic modelling to improve their qualitative data reliability.}}\detaileditem{Being a Reasonable Realist: Wise Negotiation between Give and Take}{Jun. 2019}{Sungkyunkwan University}{Seoul, South Korea}{\item{Invited guest talk to SKKU “Student Success Center” as one of the successful role models to inspire undergraduate students for future planning.}}\detaileditem{Accessibility of Math, Statistics, and Social Sciences}{May. 2019}{The MathML Meeting, The Pennsylvania State University}{University Park, PA}{\item{Invited guest talk to Penn State MathML group to present assistive technology and accessibility for STEM content.}}\detaileditem{Key-Note Speech for STEM Extension}{Jul. 2018}{BBVS Summer Academy STEM Extension}{University Park, PA}{\item{Invited key-note speaker to the STEM (Science, Technology, Engineering, and Mathematics) week of “The Summer Academy for Students who are Blind or Visually Impaired.”}\item{Hosted by the Pennsylvania Department of Labor and Industry, Office of Vocational Rehabilitation’s Bureau of Blindness and Visual Services, in partnership with the Pennsylvania Department of Education, Bureau Of Special Education’s Pennsylvania Training and Technical Assistance Network and Pennsylvania State University’s College of Education and College of Health and Human Development.}}\detaileditem{Adaptive Technology Lesson}{Apr. 2018}{LDT 100 - ``World Technologies and Learning'', The Pennsylvania State University}{University Park, PA}{\item{Two times invited guest talk to Dr. Joshua Kirby's class for the week of “The Cost of 21st Century Education.”}}\detaileditem{Universal Design 101: Three Fundamental Frameworks for an Equitable World}{Apr. 2017}{LDT First Friday Speaking Series, The Pennsylvania State University}{University Park, PA}{\item{Invited guest talk to the Learning, Design, and Technology (LDT) program of Penn State to introduce theoretical and practical background of Universal Design for Learning.}}\detaileditem{The Rapidly Changing World of Accessible Online Learning}{Nov. 2017}{AECT (The Association for Educational Communications and Technology) International Convention}{Jacsonville, FL}{\item{Panel Discussion: DDL - Accessible Online Learning In Concurrent Presentation.}}\detaileditem{Inclusive Making}{Oct. 2017}{Northwestern University}{Evanston, IL}{\item{Invited guest talk to Dr. Marcelo Worsley’s “Inclusive Making” class for Learning Sciences Program.}}\detaileditem{Accessibility Testing Using NVDA}{Jul. 2017}{The Accessibility Users Group, The Pennsylvania State University}{University Park, PA}{\item{Invited guest talk to the Penn State online learning Accessibility User Group to train web accessibility testing with open-source screen reader NVDA.}}\detaileditem{Non-Visual Access to Canvas with Assistive Technology}{Mar. 2017}{Canvas Day 17}{University Park, PA}{\item{Invited guest to a showcase of Canvas, a learning management tool, to demonstrate how to interact with the online system using assistive technology for students with disabilities.}}\detaileditem{Student Panel Discussion: Student Issues}{Mar. 2017}{Ed-ICT International Network: Disabled students, ICT, post-compulsory education \& employment}{Seattle, WA}{\item{Invited student panel to the first Ed-ICT International Network symposium.}}\detaileditem{Accessibility: The First Step towards Ability}{Jul. 2016}{Korea Employment Promotion Agency for the Disabled}{Gyeonggi, South Korea}{\item{Invited guest talk to KEAD to train the employees in concept of accessibility and universal design.}}\detaileditem{Engaging Blind Learners in Statistics Study Using R}{Mar. 2016}{The TLT (Teaching and Learning with Technology) Symposium}{University Park, PA}{\item{Presented Penn State faculty members, instructional designers, and staff how to teach Statistics in more efficient and accessible way for the students with visual impairments using R programming environment.}}\detaileditem{Automatic Knowledge Structure Measure in Online Courses}{Mar. 2016}{The TLT (Teaching and Learning with Technology) Symposium}{University Park, PA}{\item{Presented Penn State faculty members, instructional designers, and staff about how to employ automatic network-based measurement system to visualize students' knowledge structure of any given content.}}\detaileditem{Assistive Technologies for Equal Access in General Education}{Nov. 2015}{AECT (The Association for Educational Communications and Technology) International Convention}{Indianapolis, IN}{\item{Showcased on some combinations of ICT and assistive technologies for students with visual impairments.}}\detaileditem{More Accessible, More Potential: Simple Tips for Online Accessibility}{Oct. 2015}{Technology and Learning Conference, Montgomery County Community College}{Blue Bell, PA}{\item{Presented conference session attendees about how to design their online learning content in an accessible way.}}}
+
+\hypertarget{service}{%
+\section{Service}\label{service}}
+
+\detailedsection{\detaileditem{College of Education Technology Committee}{Aug. 2019 - Present}{The Pennsylvania State University}{University Park, PA}{\item{Working as a student committee member to support understanding of educational technology for College of Education.}}\detaileditem{Libraries' Accessibility Student Advisory Group}{Aug. 2019 - Present}{The Pennsylvania State University}{University Park, PA}{\empty}\detaileditem{Reviewer}{2019}{The 14th International Conference of the Learning Sciences (ICLS)}{Nashville, TN}{\empty}\detaileditem{Reviewer}{2019}{The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)}{Honolulu, HI}{\empty}\detaileditem{Reviewer}{2019}{The 1st International Conference on Quantitative Ethnography (ICQE)}{Madison, WI}{\empty}\detaileditem{Reviewer}{2018}{The 3rd Learning Sciences Graduate Student Conference (LSGSC)}{Nashville, TN}{\empty}\detaileditem{Reviewer}{2017}{The 2nd Learning Sciences Graduate Student Conference (LSGSC)}{Bloomington, IN}{\empty}\detaileditem{Funding Reviewer}{2016}{Center for Online Innovation in Learning (COIL), The Pennsylvania State University}{University Park, PA}{\empty}}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\hypertarget{programming-languages}{%
+\subsection{Programming Languages}\label{programming-languages}}
+
+\begin{itemize}
+\tightlist
+\item
+  Data Mining: R, Python, and SQL (as advanced level as being able to develop and release packages and libraries).
+\item
+  Web Programming: HTML/CSS/JavaScripts/PHP (as advanced level as being able to develop and maintain accessible web modules and application).
+\item
+  Operating System: Unix/Linux (as advanced level as being able to develop and maintain system-level Shell scripts for server and database programs).
+\item
+  Compile Languages: C/C++ and Java (as basic level as being able to review source codes and develop simple modules).
+\item
+  Others: Git, Docker, Travis CI, LaTeX, Markdown, Pandoc, Lua, and Quorum.
+\end{itemize}
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+\begin{itemize}
+\tightlist
+\item
+  English: professional fluency in reading, writing, listening and speaking.
+\item
+  Korean: native fluency in reading, writing, listening and speaking.
+\item
+  Japanese: basic fluency in reading, writing, listening and speaking.
+\item
+  Braille: Korean Literary Braille grade 1 and 2, Korean Nemeth American Literary Braille grade 1 and 2, English Nemeth Japanese Literary Braille grade 1 and 2, and Music Score Braille
+\end{itemize}
+
+\hypertarget{software}{%
+\subsection{Software}\label{software}}
+
+\begin{itemize}
+\tightlist
+\item
+  Statistical Software: R and Python (professional level), SPSS/SAS, MiniTab, and Stata.
+\item
+  Office Programs: Microsoft Office and Google Suites.
+\item
+  Learning Management System: Canvas and Angel.
+\item
+  General Web Content Management: WordPress, Drupal, and Hugo.
+\end{itemize}
+
+\hypertarget{current-memberships}{%
+\section{Current Memberships}\label{current-memberships}}
+
+\begin{itemize}
+\tightlist
+\item
+  Member, International Society of the Learning Sciences (ISLS)
+\item
+  Member, Association for Computing Machinery (ACM)
+\item
+  Member, American Educational Research Association (AERA)
+\item
+  Member, Association for Educational Communications and Technology (AECT)
+\item
+  Member, International Association of Accessibility Professionals (IAAP)
+\end{itemize}
+
+\includegraphics{"data/Signature.png"}
+
+Last updated: 2019-11-18.
+
+
+\end{document}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

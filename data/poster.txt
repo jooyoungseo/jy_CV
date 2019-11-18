@@ -1,0 +1,17 @@
+Seo, J., & Richard, G. T. (2020, April). *Maker inclusivity = maker accessibility: further interrogations for diverse participation*. Poster presented at the annual meeting of the American Educational Research Association (AERA), San Francisco, CA.
+
+Seo, J. (2019, October). *Discovering informal learning cultures of blind individuals pursuing STEM disciplines: a quantitative ethnography using listserv archives*. Poster presented at the Doctoral Consortium of the first International Conference on Quantitative Ethnography (ICQE), Madison, WI. *Awarded the best doctoral proposal fellowship*.
+
+Seo, J., & McCurry, S. (2019, March). *LaTeX is NOT easy: creating accessible scientific documents with R markdown*. Paper presented at the annual meeting of the CSUN Assistive Technology Conference, Northridge, CA.
+
+Seo, J. (2018, October). *Accessibility and inclusivity in making: engaging learners with all abilities in making activities*. Paper presented at the annual meeting of the Learning Sciences Graduate Student Conference (LSGSC), Nashville, TN.
+
+Seo, J., & Richard, G. T. (2018, June). *Accessibility, making and tactile robotics: facilitating collaborative learning and computational thinking for learners with visual impairments*. Poster presented at the 13th International Conference of the Learning Sciences (ICLS), London, UK.
+
+Seo, J., & Richard, G. T. (2018, April). *Furthering inclusivity in making: a framework for accessible design of makerspaces for learners with disabilities*. Poster presented at the annual meeting of the American Educational Research Association (AERA), New York City, NY.
+
+Seo, J. (2017, September). *Tactile access to visualized statistical data using R*. Poster presented at the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, Atlanta, GA.
+
+Seo, J., AlQahtani, M., Ouyang, X., & Borge, M. (2017, June). *Embracing learners with visual impairments in CSCL*. Paper presented at the 12th International Conference on Computer Supported Collaborative Learning (CSCL), Philadelphia, PA.
+
+Liao, J., Patcyk, M., Seo, J., & Hooper, S. (2016, October). *Using hierarchical linear modeling to measure growth rate in a gamified CBM environment*. Paper presented at the annual meeting of the Northeastern Educational Research Association (NERA), Trumbull, CT.
