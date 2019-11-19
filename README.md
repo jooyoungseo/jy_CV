@@ -7,4 +7,4 @@ Based on [vitae package](https://github.com/mitchelloharawild/vitae/), I have ex
 
 Following my template, you would be able to print as many bib-entries as you want using your desired csl file and your `*.bib` files.
 
-Anyone who would like to get a hint on how I have managed [this CV]() can fork this repo to make their own.
+Anyone who would like to get a hint on how I have managed [this CV](https://jooyoungseo.github.io/jy_CV/JooYoung_Seo_CV.pdf) can fork this repo to make their own.
