@@ -268,7 +268,3 @@ ezpickr::pick("data/service.xlsx") %>%
   * Member, American Educational Research Association (AERA)
   * Member, Association for Educational Communications and Technology (AECT)
   * Member, International Association of Accessibility Professionals (IAAP)
-
-![]("data/Signature.png")
-
-Last updated: `r Sys.Date()`.
