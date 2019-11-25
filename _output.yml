@@ -2,7 +2,9 @@ vitae::moderncv:
   theme: classic
   fig_caption: yes
 #  keep_tex: yes
+#  keep_md: yes
 #  includes:
 #    in_header: header.tex
   pandoc_args:
     - --lua-filter="lua/multiple-bibliographies.lua"
+#    - --lua-filter="lua/jy.lua"

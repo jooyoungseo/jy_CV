@@ -2,10 +2,11 @@ JooYoung_Seo_CV.tex
 JooYoung_Seo_CV.Rmd
 JooYoung_Seo_CV.log
 notes.txt
-data/Signature.png
+data/signature.png
 data/JooYoung Seo CV.docx
 docs/JooYoung_Seo_CV.tex
 docs/JooYoung_Seo_CV.log
+docs/JooYoung_Seo_CV.md
 ^build\.bat$
 .Rhistory
 .RData
