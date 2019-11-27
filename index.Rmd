@@ -29,8 +29,9 @@ bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
 bibliography_working_paper: "bib/working_paper.bib"
-bibliography_R_packages: "bib/R-packages.bib"
+bibliography_R_packages: "bib/R_packages.bib"
 bibliography_github_projects: "bib/github.bib"
+bibliography_contribute_projects: "bib/contribute.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
@@ -169,10 +170,10 @@ ezpickr::pick("data/grant.xlsx") %>%
 ## Peer-Reviewed Data Mining Packages
 
 ```{r R-package, echo = FALSE, cache = FALSE, eval=T}
-#knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R-packages.bib")
+#knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 #R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
 #RefManageR:::print.BibEntry(R_package)
-vitae::bibliography_entries("bib/R-packages.bib")
+vitae::bibliography_entries("bib/R_packages.bib")
 ```
 
 <!-- \begingroup
@@ -202,13 +203,22 @@ vitae::bibliography_entries("bib/github.bib")
 
 ## Officially Contributing R Packages
 
-* My name has been officially listed as a contributor for the following refereed open-source packages:
+* I am one of the official `code-contributors` for the following refereed open-source packages:
 
 ```{r contribute}
+#knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
 ezpickr::pick("data/contribute.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
+
+<!-- \begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_contribute_projects}
+:::
+\endgroup -->
 
 # Presentations
 
