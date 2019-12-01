@@ -12,7 +12,7 @@ twitter: sjystu
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
-  I am a learning scientist, software engineer, and accessibility professional.
+  I am a learning scientist, software engineer, and certified accessibility professional.
 date: "`r format(Sys.time(), '%B %Y')`"
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
@@ -25,6 +25,7 @@ nocite: "@*"
 #      - --lua-filter="lua/multiple-bibliographies.lua"
 #      - !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
 #      - !expr system.file("resources", "lua", "multiple-bibliographies.lua", package = "vitae")
+knit: "bookdown::render_book"
 bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
@@ -203,7 +204,7 @@ vitae::bibliography_entries("bib/github.bib")
 
 ## Officially Contributing R Packages
 
-* I am one of the official `code-contributors` for the following refereed open-source packages:
+* I am an official `code-contributor` for the following refereed open-source packages:
 
 ```{r contribute}
 #knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
