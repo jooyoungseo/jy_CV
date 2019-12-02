@@ -188,7 +188,7 @@ vitae::bibliography_entries("bib/R_packages.bib")
 ## Open-Source Project on GitHub
 
 ```{r github, echo = FALSE, cache = FALSE, eval=T}
-#knitr::write_bib(c('tactileR', 'ezviewr', 'jladown'), "bib/github.bib")
+#knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
 #github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
 #RefManageR:::print.BibEntry(github)
 vitae::bibliography_entries("bib/github.bib")
