@@ -12,7 +12,7 @@ twitter: sjystu
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
-  I am a learning scientist, software engineer, and certified accessibility professional.
+  I am a learning scientist, software engineer, and internationally-certified accessibility professional.
 date: "`r format(Sys.time(), '%B %Y')`"
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
@@ -279,3 +279,7 @@ ezpickr::pick("data/service.xlsx") %>%
   * Member, American Educational Research Association (AERA)
   * Member, Association for Educational Communications and Technology (AECT)
   * Member, International Association of Accessibility Professionals (IAAP)
+
+![JooYoung Seo's Signature](data/signature.png)\
+
+*`r Sys.Date()`*

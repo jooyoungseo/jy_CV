@@ -6,5 +6,6 @@ vitae::moderncv:
 #  includes:
 #    in_header: header.tex
   pandoc_args:
+#    - --pdf-engine=context
     - --lua-filter="lua/multiple-bibliographies.lua"
 #    - --lua-filter="lua/jy.lua"
