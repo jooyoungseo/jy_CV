@@ -1,11 +1,14 @@
-vitae::moderncv:
-  theme: classic
+#vitae::moderncv:
+#  theme: classic
+vitae::awesomecv:
   fig_caption: yes
 #  keep_tex: yes
 #  keep_md: yes
+#  citation_package: biblatex
 #  includes:
-#    in_header: header.tex
+#    in_header: highlight.tex
   pandoc_args:
+#    - --biblatex
 #    - --pdf-engine=context
     - --lua-filter="lua/multiple-bibliographies.lua"
 #    - --lua-filter="lua/jy.lua"
