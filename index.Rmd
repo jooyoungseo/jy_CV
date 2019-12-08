@@ -263,6 +263,6 @@ ezpickr::pick("data/service.xlsx") %>%
   * Member, Association for Educational Communications and Technology (AECT)
   * Member, International Association of Accessibility Professionals (IAAP)
 
-![JooYoung Seo's Signature](data/signature.png)\
+<!-- ![JooYoung Seo's Signature](data/signature.png)\ -->
 
 <!-- *`r Sys.Date()`* -->
