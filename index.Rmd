@@ -16,15 +16,6 @@ aboutme: |
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
-#output:
-#  vitae::moderncv:
-#    theme: classic
-#    fig_caption: yes
-#    keep_tex: yes
-#    pandoc_args:
-#      - --lua-filter="lua/multiple-bibliographies.lua"
-#      - !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
-#      - !expr system.file("resources", "lua", "multiple-bibliographies.lua", package = "vitae")
 knit: "bookdown::render_book"
 bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
@@ -32,10 +23,10 @@ bibliography_proceedings: "bib/proceedings.bib"
 bibliography_working_paper: "bib/working_paper.bib"
 bibliography_R_packages: "bib/R_packages.bib"
 bibliography_github_projects: "bib/github.bib"
-bibliography_contribute_projects: "bib/contribute.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 library(RefManageR)
@@ -88,37 +79,37 @@ ezpickr::pick("data/certificate.xlsx") %>%
 
 ## Peer-Reviewed Data Mining Packages
 
-```{r R-package, echo = FALSE, cache = FALSE, eval=T}
+<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval=T}
 #knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 #R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
 #RefManageR:::print.BibEntry(R_package)
-vitae::bibliography_entries("bib/R_packages.bib")
-```
+####vitae::bibliography_entries("bib/R_packages.bib")
+``` -->
 
-<!-- \begingroup
+\begingroup
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
 ::: {#refs_R_packages}
 :::
-\endgroup -->
+\endgroup
 
 ## Open-Source Project on GitHub
 
-```{r github, echo = FALSE, cache = FALSE, eval=T}
+<!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
 #knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
 #github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
 #RefManageR:::print.BibEntry(github)
-vitae::bibliography_entries("bib/github.bib")
-```
+####vitae::bibliography_entries("bib/github.bib")
+``` -->
 
-<!-- \begingroup
+\begingroup
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
 ::: {#refs_github_projects}
 :::
-\endgroup -->
+\endgroup
 
 ## Officially Contributing R Packages
 
@@ -130,14 +121,6 @@ ezpickr::pick("data/contribute.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
-
-<!-- \begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_contribute_projects}
-:::
-\endgroup -->
 
 # Research Experience
 
