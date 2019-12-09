@@ -11,4 +11,4 @@ vitae::awesomecv:
 # !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = "--lua-filter=lua/multiple-bibliographies.lua")))
 #    - --biblatex
     - --lua-filter="lua/multiple-bibliographies.lua"
-    - --lua-filter="lua/jy.lua"
+    - --lua-filter="lua/strong.lua"
