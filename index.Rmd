@@ -152,8 +152,8 @@ ezpickr::pick("data/working-experience.xlsx") %>%
 
 ```{r award}
 ezpickr::pick("data/award.xlsx") %>%
-#  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where)
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
 ```
 
 # Grants
