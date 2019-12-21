@@ -18,7 +18,7 @@ aboutme: |
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
-knit: "bookdown::render_book"
+knit: bookdown::render_book
 bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
