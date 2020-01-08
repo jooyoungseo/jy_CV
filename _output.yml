@@ -4,7 +4,7 @@ vitae::awesomecv:
   fig_caption: yes
   keep_tex: yes
 #  keep_md: yes
-  citation_package: "none"
+#  citation_package: "none"
 #  includes:
 #    in_header: highlight.tex
   pandoc_args:
