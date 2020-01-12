@@ -1,6 +1,14 @@
 
 # JooYoung Seo's Academic CV
 
+## Enhancements Compared to the default `vitae` package:
+
+* Styling your publications using given csl file in `YAML`.
+* Printing as many bibliographic sections and corresponding entries as you want in your CV (e.g., journal publication, conference proceedings, software release, etc. etc.).
+* Highlighting your name in printed bib entries using bold format (see and change the content in `lua/strong.lua`).
+
+## Descriptions
+
 This repo has been created to systematically manage my academic CV. This is reproducible for those who have basic knowledge of R and R Markdown.
 
 Based on [vitae package](https://github.com/mitchelloharawild/vitae/), I have extended its capabilities to include multiple bibliographic entries using [multiple-bibliographies lua filter](https://github.com/pandoc/lua-filters/blob/master/multiple-bibliographies/multiple-bibliographies.lua) so that I can print my scientific records in [APA_CV style](https://github.com/citation-style-language/styles/blob/master/apa-cv.csl).
