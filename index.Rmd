@@ -81,8 +81,8 @@ ezpickr::pick("data/certificate.xlsx") %>%
 
 ## Peer-Reviewed Data Mining Packages
 
-<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval=T}
-#knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
+<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
+knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 #R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
 #RefManageR:::print.BibEntry(R_package)
 ####vitae::bibliography_entries("bib/R_packages.bib")
