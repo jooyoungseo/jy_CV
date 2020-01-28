@@ -16,7 +16,7 @@ linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, software engineer, and internationally-certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa6-cv.csl"
+csl: "csl/apa7-cv.csl"
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_selected: "bib/selected.bib"
@@ -45,22 +45,66 @@ library(tidyverse)
 library(ezpickr)
 ```
 
+# Primary Research Methods
+
+ * Large-Scale-Longitudinal Quantitative/Virtual Ethnography
+ * Supervised/Unsupervied Machine Learning-Based Text Mining 
+ * Computational Linguistics
+ * Data Science-Based Reproducible Research
+
+# Skills
+
+\begin{cvskills}
+  \cvskill
+    {Data Science}
+    {R (highly advanced: published 3 packages in CRAN), Python (advanced: tensorflow/keras/scikit-learn), SQL}
+
+  \cvskill
+    {Reproducible Report}
+    {Markdown/Rmarkdown, R shiny apps, Jupyter Notebook, LaTeX, Pandoc, lua}
+
+  \cvskill
+    {Quantitative Research}
+    {t-test, within-/between-subjects/Repeated Measures ANOVAs/ANCOVAs/MANOVAs/MANCOVAs, Regressions, \newline HLM, Factor Analysis, Network Analysis, SEM, PCA, Unsupervised/Supervised Machine Learning}
+
+  \cvskill
+    {Qualitative Research}
+    {Virtual Ethnography, Content Analysis, Grounded Theory, Phenomenology, Case Studies, Interaction Analysis}
+
+  \cvskill
+    {Mixed Research}
+    {Text Mining, Quantitative Ethnography, Explanatory/Exploratory Sequential Mixed Methods}
+
+  \cvskill
+    {DevOps}
+    {Git, Docker, AWS, Travis CI, Cygwin}
+
+  \cvskill
+    {Front-End}
+    {HTML/CSS/JS/PHP/ARIA (advanced level to design according to WCAG 2.0/2.1), WordPress, Drupal, Hugo}
+
+  \cvskill
+    {Back-End}
+    {Unix/Linux Shell scripts, LAMP, Django, REST API}
+
+  \cvskill
+    {Compile Programming Languages}
+    {C/C++/C\#, Java, Quorum (as basic level to review source codes and develop simple modules)}
+
+  \cvskill
+    {Languages}
+    {English/Korean (bilingual)}
+\end{cvskills}
+
 # Research Areas
 
- * Inclusive Makerspaces
+ * Inclusive Makerspaces for Underrepresented STEM Learners
  * Accessible STEM Learning
  * Computational Thinking for Learners with dis/ABILITIES
  * Inclusive CSCL (Computer-Supported Collaborative Learning)
  * Accessibility
  * Universal Design
  * Assistive Technology
-
-# Primary Research Methods
-
- * Supervised/Unsupervied Machine Learning-Based Text Mining 
- * Computational Linguistics
- * Data Science-Based Reproducible Research
- * Quantitative Ethnography
 
 # Education
 
@@ -70,7 +114,7 @@ ezpickr::pick("data/education.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
-# Certificate
+# Certificates
 
 ```{r certificate}
 ezpickr::pick("data/certificate.xlsx") %>%
@@ -131,6 +175,8 @@ ezpickr::pick("data/research-experience.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
+
+\newpage
 
 # Teaching Experience
 
@@ -233,29 +279,6 @@ ezpickr::pick("data/service.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
-
-# Skills
-
-## Programming Languages
-
-* Data Mining: R, Python, and SQL (as advanced level as being able to develop and release packages and libraries).
-* Web Programming: HTML/CSS/JavaScripts/PHP (as advanced level as being able to develop and maintain accessible web modules and application).
-* Operating System: Unix/Linux (as advanced level as being able to develop and maintain system-level Shell scripts for server and database programs).
-* Compile Languages: C/C++ and Java (as basic level as being able to review source codes and develop simple modules).
-* Others: Git, Docker, Travis CI, LaTeX, Markdown, Pandoc, Lua, and Quorum.
-
-## Languages
-
-* English: professional fluency in reading, writing, listening and speaking.
-* Korean: native fluency in reading, writing, listening and speaking.
-* Japanese: basic fluency in reading, writing, listening and speaking.
-
-## Software
-
-* Statistical Software: R and Python (professional level), SPSS/SAS, MiniTab, and Stata.
-* Office Programs: Microsoft Office and Google Suites.
-* Learning Management System: Canvas and Angel.
-* General Web Content Management: WordPress, Drupal, and Hugo.
 
 # Current Memberships
 
