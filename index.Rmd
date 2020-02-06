@@ -272,6 +272,8 @@ ezpickr::pick("data/talk.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
 ```
 
+\newpage
+
 # Service
 
 ```{r service}
