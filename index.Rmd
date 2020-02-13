@@ -254,7 +254,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Presentations
 
-## Peer-Reviewed Conference Posters and Presentations
+## Peer-Reviewed Conference Presentations
 
 \begingroup
 \setlength{\parindent}{-0.5in}

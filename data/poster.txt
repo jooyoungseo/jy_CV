@@ -17,3 +17,11 @@ Seo, J. (2017, September). *Tactile access to visualized statistical data using 
 Seo, J., AlQahtani, M., Ouyang, X., & Borge, M. (2017, June). *Embracing learners with visual impairments in CSCL*. Paper presented at the 12th International Conference on Computer Supported Collaborative Learning (CSCL), Philadelphia, PA.
 
 Liao, J., Patcyk, M., Seo, J., & Hooper, S. (2016, October). *Using hierarchical linear modeling to measure growth rate in a gamified CBM environment*. Paper presented at the annual meeting of the Northeastern Educational Research Association (NERA), Trumbull, CT.
+
+Seo, J. (2016, March). *Engaging blind learners in statistics study using R*. Presented at the annual meeting of the Teaching and Learning with Technology (TLT) Symposium, University Park, PA.
+
+Kim, K., Seo, J., & Clariana, R. B. (2016, March). *Automatic knowledge structure measure in online courses*. Presented at the annual meeting of the Teaching and Learning with Technology (TLT) Symposium, University Park, PA.
+
+Seo, J. (2015, November). *Assistive technologies for equal access in general education*. Presented at the annual meeting of the Association for Educational Communications and Technology (AECT), Indianapolis, IN.
+
+Seo, J., & Park, E. (2015, October). *The more accessible, the more potential: simple tips for online accessibility*. Presented at the Technology and Learning Conference, Blue Bell, PA.
