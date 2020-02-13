@@ -272,8 +272,6 @@ ezpickr::pick("data/talk.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
 ```
 
-\newpage
-
 # Service
 
 ```{r service}
@@ -291,5 +289,3 @@ ezpickr::pick("data/service.xlsx") %>%
   * Member, International Association of Accessibility Professionals (IAAP)
 
 ![JooYoung Seo's Signature](data/signature.png)\
-
-<!-- *`r Sys.Date()`* -->
