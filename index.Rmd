@@ -123,7 +123,7 @@ ezpickr::pick("data/certificate.xlsx") %>%
 
 # Software Developments and Publications
 
-## Peer-Reviewed Data Mining Packages
+## Data Science Packages in Comprehensive R Archive Network (CRAN)
 
 <!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
 knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
@@ -157,7 +157,7 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 :::
 \endgroup
 
-## Officially Contributing R Packages
+## Officially Code_Contributing R Packages
 
 * I am an official `code-contributor` for the following refereed open-source packages:
 
