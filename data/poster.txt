@@ -12,6 +12,8 @@ Seo, J., & Richard, G. T. (2018, June). *Accessibility, making and tactile robot
 
 Seo, J., & Richard, G. T. (2018, April). *Furthering inclusivity in making: a framework for accessible design of makerspaces for learners with disabilities*. Poster presented at the annual meeting of the American Educational Research Association (AERA), New York City, NY.
 
+Bunag, T., Aniela, L., Nielsen, M. C., & Seo, J. (2017, November). *The rapidly changing world of accessible online learning*. Presented at the Panel Discussion: DDL - Accessible Online Learning In Concurrent Presentation of the Association for Educational Communications and Technology (AECT), Jacsonville, FL.
+
 Seo, J. (2017, September). *Tactile access to visualized statistical data using R*. Poster presented at the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, Atlanta, GA.
 
 Seo, J., AlQahtani, M., Ouyang, X., & Borge, M. (2017, June). *Embracing learners with visual impairments in CSCL*. Paper presented at the 12th International Conference on Computer Supported Collaborative Learning (CSCL), Philadelphia, PA.
