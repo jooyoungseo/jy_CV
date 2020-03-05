@@ -54,13 +54,6 @@ ezpickr::pick("../data/education.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
-# Certificates
-
-```{r certificate}
-ezpickr::pick("../data/certificate.xlsx") %>%
-  vitae::detailed_entries(what, when, with, where)
-```
-
 # Working Experience
 
 ```{r working-experience}
@@ -104,18 +97,6 @@ ezpickr::pick("../data/teaching-experience.xlsx") %>%
 \setlength{\leftskip}{0.5in}
 
 ::: {#refs_proceedings}
-:::
-\endgroup
-
-## Publications in Healthcare
-
-* I have contributed to the following publications for their methods and research designs.
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_healthcare}
 :::
 \endgroup
 
