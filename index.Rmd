@@ -275,8 +275,6 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 \endgroup
 
-\newpage
-
 ## Invited Guest Lectures
 
 ```{r talk}
