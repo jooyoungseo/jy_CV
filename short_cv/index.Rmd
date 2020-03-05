@@ -70,14 +70,6 @@ ezpickr::pick("../data/research-experience.xlsx") %>%
   vitae::detailed_entries(what, when, with, where)
 ```
 
-# Teaching Experience
-
-```{r teaching-experience}
-ezpickr::pick("../data/teaching-experience.xlsx") %>%
-#  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where)
-```
-
 # Publications
 
 ## Refereed Journal Papers
