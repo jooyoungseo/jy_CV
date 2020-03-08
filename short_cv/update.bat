@@ -1,4 +1,6 @@
 @echo off
+mv *.tex ../docs/
+mv *.pdf ../docs/
 cd ..
 git add *
 git commit -m "Update"
