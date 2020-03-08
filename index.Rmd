@@ -303,4 +303,8 @@ ezpickr::pick("data/service.xlsx") %>%
   * Member, Association for Educational Communications and Technology (AECT)
   * Member, International Association of Accessibility Professionals (IAAP)
 
+# Notes
+
+* This CV is reproducible; all the source code behind this CV is available at [this GitHub repo](https://github.com/jooyoungseo/jy_CV).
+
 ![JooYoung Seo's Signature](data/signature.png)\
