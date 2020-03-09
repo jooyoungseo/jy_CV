@@ -5,7 +5,7 @@ name: JooYoung
 surname: Seo
 #headcolor: 414141
 #qualifications: 
-position: "RStudio Intern for Summer 2020; Ph.D. Candidate (ABD)"
+position: "Ph.D. Candidate (ABD)"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
