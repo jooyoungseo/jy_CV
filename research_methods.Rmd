@@ -1,0 +1,6 @@
+# Primary Research Methods
+
+ * Large-Scale-Longitudinal Quantitative/Virtual Ethnography
+ * Supervised/Unsupervied Machine Learning-Based Text Mining 
+ * Computational Linguistics
+ * Data Science-Based Reproducible Research

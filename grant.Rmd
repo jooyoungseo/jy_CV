@@ -1,0 +1,7 @@
+# Grants
+
+```{r grant}
+ezpickr::pick("data/grant.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```

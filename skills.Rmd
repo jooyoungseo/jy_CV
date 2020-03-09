@@ -1,0 +1,47 @@
+# Skills
+
+\begin{cvskills}
+  \cvskill
+    {Braille}
+    {UEB (Unified English Braille), Nemeth (Math), Korean, Japanese Brailles}
+
+  \cvskill
+    {Data Science}
+    {R (highly advanced: published 3 packages in CRAN), Python (advanced: tensorflow/keras/scikit-learn), SQL}
+
+  \cvskill
+    {Reproducible Report}
+    {Markdown/Rmarkdown, R shiny apps, Jupyter Notebook, LaTeX, Pandoc, lua}
+
+  \cvskill
+    {DevOps}
+    {Git, Docker, AWS, Travis CI, Cygwin}
+
+  \cvskill
+    {Front-End}
+    {HTML/CSS/JS/PHP/ARIA (advanced level to design according to WCAG 2.0/2.1), WordPress, Drupal, Hugo}
+
+  \cvskill
+    {Back-End}
+    {Unix/Linux Shell scripts, LAMP, Django, REST API}
+
+  \cvskill
+    {Compile Programming Languages}
+    {C/C++/C\#, Java, Quorum (as basic level to review source codes and develop simple modules)}
+
+  \cvskill
+    {Quantitative Research}
+    {t-test, within-/between-subjects/Repeated Measures ANOVAs/ANCOVAs/MANOVAs/MANCOVAs, Regressions, \newline HLM, Factor Analysis, Network Analysis, SEM, PCA, Unsupervised/Supervised Machine Learning}
+
+  \cvskill
+    {Qualitative Research}
+    {Virtual Ethnography, Content Analysis, Grounded Theory, Phenomenology, Case Studies, Interaction Analysis}
+
+  \cvskill
+    {Mixed Research}
+    {Text Mining, Quantitative Ethnography, Explanatory/Exploratory Sequential Mixed Methods}
+
+  \cvskill
+    {Languages}
+    {English/Korean (bilingual)}
+\end{cvskills}

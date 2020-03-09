@@ -1,0 +1,19 @@
+# Presentations
+
+## Peer-Reviewed Conference Presentations
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("data/poster.txt")`
+
+\endgroup
+
+## Invited Guest Lectures
+
+```{r talk}
+ezpickr::pick("data/talk.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
+```

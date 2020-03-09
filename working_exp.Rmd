@@ -1,0 +1,7 @@
+# Working Experience
+
+```{r working-experience}
+ezpickr::pick("data/working-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```

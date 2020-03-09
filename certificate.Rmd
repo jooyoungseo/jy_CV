@@ -1,0 +1,6 @@
+# Certificates
+
+```{r certificate}
+ezpickr::pick("data/certificate.xlsx") %>%
+  vitae::detailed_entries(what, when, with, where)
+```
