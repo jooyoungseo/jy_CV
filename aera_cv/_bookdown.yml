@@ -1,0 +1,9 @@
+rmd_files:
+  - "index.Rmd"
+  - "education.Rmd"
+  - "research_exp.Rmd"
+  - "publication.Rmd"
+  - "membership.Rmd"
+book_filename: "CV"
+output_dir: "."
+delete_merged_file: true
