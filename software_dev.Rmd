@@ -1,6 +1,6 @@
 # Software Developments and Publications
 
-## Statistical Computing Software Developments
+## Data Science Packages in Comprehensive R Archive Network (CRAN)
 
 <!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
 knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
