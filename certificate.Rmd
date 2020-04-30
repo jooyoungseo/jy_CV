@@ -2,5 +2,5 @@
 
 ```{r certificate}
 ezpickr::pick("data/certificate.xlsx") %>%
-  vitae::detailed_entries(what, when, with, where)
+  vitae::detailed_entries(what, when, with, where, why, .protect = FALSE)
 ```
