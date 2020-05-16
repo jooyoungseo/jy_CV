@@ -1,3 +1,4 @@
+output_dir: "docs"
 rmd_files:
   - "index.Rmd"
   - "skills.Rmd"
@@ -17,5 +18,4 @@ rmd_files:
   - "membership.Rmd"
   - "backmatter.Rmd"
 book_filename: "JooYoung_Seo_CV"
-output_dir: "docs"
 delete_merged_file: true
