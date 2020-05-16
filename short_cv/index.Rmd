@@ -114,7 +114,7 @@ ezpickr::pick("../data/research-experience.xlsx") %>%
 
 ```{r certificate}
 ezpickr::pick("../data/certificate.xlsx") %>%
-  vitae::detailed_entries(what, when, with, where)
+  vitae::detailed_entries(what, when, with, where, .protect = FALSE)
 ```
 
 # Education
