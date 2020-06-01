@@ -15,7 +15,7 @@ linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, software engineer, and internationally-certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa7-cv.csl"
+csl: "csl/apa6-cv.csl"
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_selected: "bib/selected.bib"
@@ -25,21 +25,13 @@ bibliography_healthcare: "bib/healthcare.bib"
 bibliography_working_paper: "bib/working_paper.bib"
 bibliography_R_packages: "bib/R_packages.bib"
 bibliography_github_projects: "bib/github.bib"
+#given-name-pattern: JooYoung
+#family-name-pattern: Seo
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-
-library(RefManageR)
-RefManageR::BibOptions(check.entries = FALSE,
-           bib.style = "authoryear",
-           sorting = "",
-           cite.style = "alphabetic",
-           style = "markdown",
-#           hyperlink = FALSE,
-           dashed = FALSE)
-
 library(vitae)
 library(tidyverse)
 library(ezpickr)
