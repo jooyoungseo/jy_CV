@@ -14,7 +14,7 @@ twitter: sjystu
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
-  I am a learning scientist, software engineer, and internationally-certified accessibility professional.
+  I am a learning scientist, data-science software engineer, and internationally-certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "../csl/apa7-cv.csl"
 nocite: "@*"
