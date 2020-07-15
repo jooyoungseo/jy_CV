@@ -30,18 +30,6 @@
 :::
 \endgroup
 
-## Publications in Healthcare
-
-* I have contributed to the following publications for their methods and research designs.
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_healthcare}
-:::
-\endgroup
-
 <!-- ## Working Papers under Revision or Review
 
 \begingroup
