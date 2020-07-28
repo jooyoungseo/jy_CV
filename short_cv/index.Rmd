@@ -125,40 +125,6 @@ ezpickr::pick("../data/education.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
-# Publications
-
-## Refereed Journal Papers
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_journals}
-:::
-\endgroup
-
-## Papers in Refereed Conference Proceedings
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_proceedings}
-:::
-\endgroup
-
-## Publications in Healthcare
-
-* I have contributed to the following publications for their methods and research designs.
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_healthcare}
-:::
-\endgroup
-
 # Software Developments and Publications
 
 ## Data Science Packages in Comprehensive R Archive Network (CRAN)
@@ -205,6 +171,40 @@ ezpickr::pick("../data/contribute.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
+
+# Publications
+
+## Refereed Journal Papers
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_journals}
+:::
+\endgroup
+
+## Papers in Refereed Conference Proceedings
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_proceedings}
+:::
+\endgroup
+
+## Publications in Healthcare
+
+* I have contributed to the following publications for their methods and research designs.
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_healthcare}
+:::
+\endgroup
 
 # Presentations
 
