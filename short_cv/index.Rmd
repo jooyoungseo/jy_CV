@@ -10,7 +10,7 @@ address: "Learning, Design, and Technology, 301 Keller Building, University Park
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
 email: "jooyoung@psu.edu"
-twitter: sjystu
+twitter: seo_jooyoung
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
