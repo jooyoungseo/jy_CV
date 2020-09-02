@@ -3,6 +3,6 @@
  * Data Science-Based Reproducible Research
  * Learning Analytics/Statistical Computing
  * Large-Scale-Longitudinal Quantitative/Virtual Ethnography
- * Supervised/Unsupervied Machine Learning-Based Text Mining 
+ * Supervised/Unsupervised Machine Learning-Based Text Mining 
  * Computational Linguistics/NLP
 
