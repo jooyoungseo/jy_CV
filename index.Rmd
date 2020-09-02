@@ -4,7 +4,7 @@ name: JooYoung
 surname: Seo
 #headcolor: 414141
 #qualifications: 
-position: "RStudio Summer Intern 2020; Ph.D. Candidate (ABD)"
+position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
@@ -13,7 +13,7 @@ twitter: seo_jooyoung
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
-  I am a learning scientist, data-science software engineer, and internationally-certified accessibility professional.
+  I am a learning scientist, data-science/software engineer, and internationally certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
