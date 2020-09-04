@@ -1,3 +1,5 @@
+Seo, J., & Richard, G. T. (accepted). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster will be presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
+
 Seo, J. (2020, September). *Discovering knowledge sharing patterns of blind people pursuing STEM disciplines: data science and computational linguistics on large-scale email corpora*. Poster presented at the Doctoral Consortium of the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, virtual. *Awarded the Qualcomm scholarship*.
 
 Seo, J., & Richard, G. T. (2020, April). *Maker inclusivity = maker accessibility: further interrogations for diverse participation*. Poster presented at the annual meeting of the American Educational Research Association (AERA), Virtual.
