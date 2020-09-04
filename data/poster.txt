@@ -1,3 +1,5 @@
+Seo, J. (2020, September). *Discovering knowledge sharing patterns of blind people pursuing STEM disciplines: data science and computational linguistics on large-scale email corpora*. Poster presented at the Doctoral Consortium of the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, virtual. *Awarded the Qualcomm scholarship*.
+
 Seo, J., & Richard, G. T. (2020, June). *Coding through touch: exploring and re-designing tactile making activities with learners with visual dis/abilities*. Paper presented at the 14th International Conference of the Learning Sciences (ICLS), Nashville, TN.
 
 Seo, J., & Richard, G. T. (2020, April). *Maker inclusivity = maker accessibility: further interrogations for diverse participation*. Poster presented at the annual meeting of the American Educational Research Association (AERA), San Francisco, CA.
