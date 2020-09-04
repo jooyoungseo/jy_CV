@@ -1,4 +1,6 @@
-Seo, J., & Richard, G. T. (2020, April). *Maker inclusivity = maker accessibility: further interrogations for diverse participation*. Poster presented at the annual meeting of the American Educational Research Association (AERA), San Francisco, CA.
+Seo, J. (2020, September). *Discovering knowledge sharing patterns of blind people pursuing STEM disciplines: data science and computational linguistics on large-scale email corpora*. Poster presented at the Doctoral Consortium of the annual meeting of the ACM Richard Tapia Celebration of Diversity in Computing, virtual. *Awarded the Qualcomm scholarship*.
+
+Seo, J., & Richard, G. T. (2020, April). *Maker inclusivity = maker accessibility: further interrogations for diverse participation*. Poster presented at the annual meeting of the American Educational Research Association (AERA), Virtual.
 
 Seo, J., & Richard, G. T. (2018, April). *Furthering inclusivity in making: a framework for accessible design of makerspaces for learners with disabilities*. Poster presented at the annual meeting of the American Educational Research Association (AERA), New York City, NY.
 
