@@ -1,9 +1,8 @@
 # Research Topics
 
- * Inclusive Makerspaces for Underrepresented STEM Learners
- * Accessible STEM Learning
- * Computational Thinking for Learners with dis/ABILITIES
- * Inclusive CSCL (Computer-Supported Collaborative Learning)
  * Accessibility
  * Universal Design
  * Assistive Technology
+ * Accessible STEM Learning
+ * Computational Thinking for Learners with dis/ABILITIES
+ * Inclusive CSCL (Computer-Supported Collaborative Learning)

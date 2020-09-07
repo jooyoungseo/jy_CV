@@ -5,7 +5,7 @@ name: JooYoung
 surname: Seo
 #headcolor: 414141
 #qualifications: 
-position: "Ph.D. Candidate (ABD)"
+position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
@@ -163,7 +163,7 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "../bib/R_packages.bib
 
 ## Officially Code_Contributing R Packages
 
-* My [18 GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
+* [My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
 
 ```{r contribute}
 #knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "../bib/contribute.bib")
