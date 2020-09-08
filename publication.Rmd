@@ -30,7 +30,7 @@
 :::
 \endgroup
 
-<!-- ## Working Papers under Revision or Review
+## Working Papers under Revision or Review
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -38,4 +38,4 @@
 
 ::: {#refs_working_paper}
 :::
-\endgroup -->
+\endgroup
