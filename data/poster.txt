@@ -1,3 +1,6 @@
+
+Seo, J. (accepted). *Accessible data science beyond visual models*. Talk will be presented at the rstudio::global(2021), Virtual.
+
 Seo, J., & Richard, G. T. (accepted). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster will be presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
 
 Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (accepted). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster will be presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
