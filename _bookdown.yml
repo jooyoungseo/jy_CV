@@ -3,7 +3,6 @@ rmd_files:
   - "index.Rmd"
   - "research_topics.Rmd"
   - "research_methods.Rmd"
-  - "skills.Rmd"
   - "education.Rmd"
   - "certificate.Rmd"
   - "research_exp.Rmd"
@@ -17,6 +16,7 @@ rmd_files:
   - "grant.Rmd"
   - "service.Rmd"
   - "membership.Rmd"
+  - "skills.Rmd"
   - "backmatter.Rmd"
 book_filename: "JooYoung_Seo_CV"
 delete_merged_file: true
