@@ -1382,6 +1382,8 @@
         </else-if>
       </choose>
       <text variable="annote" display="block"/>
+      <!-- The following line has been added by JooYoung Seo (jooyoung@psu.edu) to display note field -->
+      <text variable="note" font-style="italic" prefix=". " suffix="." />
     </layout>
   </bibliography>
 </style>
