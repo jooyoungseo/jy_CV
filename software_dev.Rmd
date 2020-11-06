@@ -9,13 +9,8 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 ####vitae::bibliography_entries("bib/R_packages.bib")
 ``` -->
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
 ::: {#refs_R_packages}
 :::
-\endgroup
 
 ## Open-Source Project on GitHub
 
@@ -26,13 +21,8 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 ####vitae::bibliography_entries("bib/github.bib")
 ``` -->
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
 ::: {#refs_github_projects}
 :::
-\endgroup
 
 ## Officially Code_Contributing R Packages
 

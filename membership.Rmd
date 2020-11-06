@@ -1,7 +1,9 @@
 # Current Memberships
 
-  * Member, International Society of the Learning Sciences (ISLS)
-  * Member, Association for Computing Machinery (ACM)
-  * Member, American Educational Research Association (AERA)
-  * Member, Association for Educational Communications and Technology (AECT)
-  * Member, International Association of Accessibility Professionals (IAAP)
+  * International Society of the Learning Sciences (ISLS)
+  * Society for Learning Analytics Research (SoLAR)
+  * International Society for Quantitative Ethnography (ISQE)
+  * Association for Computing Machinery (ACM)
+  * American Educational Research Association (AERA)
+  * Association for Educational Communications and Technology (AECT)
+  * International Association of Accessibility Professionals (IAAP)

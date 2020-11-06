@@ -27,7 +27,7 @@
 
   \cvskill
     {Compile Programming Languages}
-    {C/C++/C\#, Java, Quorum (as basic level to review source codes and develop simple modules)}
+    {C/C++/C\#, Java, Quorum}
 
   \cvskill
     {Quantitative Research}

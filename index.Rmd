@@ -2,7 +2,7 @@
 graphics: yes
 name: JooYoung
 surname: Seo
-#headcolor: 414141
+headcolor: 414141
 #qualifications: 
 position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
@@ -18,7 +18,7 @@ date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
 knit: bookdown::render_book
-bibliography_selected: "bib/selected.bib"
+#bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
 bibliography_healthcare: "bib/healthcare.bib"

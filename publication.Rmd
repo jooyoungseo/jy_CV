@@ -12,30 +12,15 @@
 
 ## Refereed Journal Papers
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
 ::: {#refs_journals}
 :::
-\endgroup
-
-## Papers in Refereed Conference Proceedings
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_proceedings}
-:::
-\endgroup
 
 ## Working Papers under Revision or Review
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
 ::: {#refs_working_paper}
 :::
-\endgroup
+
+## Papers in Refereed Conference Proceedings
+
+::: {#refs_proceedings}
+:::

@@ -1,11 +1,6 @@
-# Publications in Healthcare
+## Publications in Healthcare
 
-* I have contributed to the following publications for their methods and research designs.
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+* I have contributed to the following publications for methods and research designs.
 
 ::: {#refs_healthcare}
 :::
-\endgroup

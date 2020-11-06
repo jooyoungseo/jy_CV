@@ -2,14 +2,7 @@
 
 ## Peer-Reviewed Conference Presentations
 
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-<!-- `r knitr::knit_child("data/poster.txt")` -->
 `r knitr::knit_child("data/poster_short.txt")`
-
-\endgroup
 
 ## Invited Guest Lectures
 
