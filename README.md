@@ -4,7 +4,7 @@
 ## Enhancements Compared to the default `vitae` package:
 
 * Styling your publications using given csl file in `YAML`.
-* Printing as many bibliographic sections and corresponding entries as you want in your CV (e.g., journal publication, conference proceedings, software release, etc. etc.).
+* Printing as many bibliographic sections and corresponding entries as you want in your CV (e.g., journal publication, conference proceedings, software developments, etc. etc.).
 * Highlighting your name in printed bib entries using bold format (see and change the content in `lua/strong.lua`).
 * Easily managing your CV following `bookdown` style (e.g., each separate Rmd file according to their own categories like chapters).
 
