@@ -1,6 +1,4 @@
 ## Publications in Healthcare
 
-* I have contributed to the following publications for methods and research designs.
-
 ::: {#refs_healthcare}
 :::
