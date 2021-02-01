@@ -1,7 +1,7 @@
 
-Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster will be presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
+Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
 
-Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (2021, February). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster will be presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
+Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (2021, February). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
 
 Seo, J. (2021, January). *Accessible data science beyond visual models*. Talk presented at the rstudio::global(2021), Virtual: *https://global.rstudio.com/student/page/40617*.
 
