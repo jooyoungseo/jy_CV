@@ -12,6 +12,8 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 ::: {#refs_R_packages}
 :::
 
+\newpage
+
 ## Open-Source Project on GitHub
 
 <!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
