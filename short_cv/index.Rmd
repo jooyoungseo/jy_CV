@@ -1,9 +1,8 @@
 ---
-#citeproc: no
 graphics: yes
 name: JooYoung
 surname: Seo
-#headcolor: 414141
+headcolor: 414141
 #qualifications: 
 position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
@@ -14,222 +13,31 @@ twitter: seo_jooyoung
 github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
-  I am a learning scientist, data-science software engineer, and internationally-certified accessibility professional.
+  I am a learning scientist, data-science/software engineer, and internationally certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "../csl/apa7-cv.csl"
+csl: "../csl/apa6-cv.csl"
 nocite: "@*"
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[R]{\thepage}
 knit: bookdown::render_book
-bibliography_selected: "../bib/selected.bib"
+#bibliography_selected: "bib/selected.bib"
 bibliography_journals: "../bib/journal.bib"
 bibliography_proceedings: "../bib/proceedings.bib"
 bibliography_healthcare: "../bib/healthcare.bib"
 bibliography_working_paper: "../bib/working_paper.bib"
 bibliography_R_packages: "../bib/R_packages.bib"
 bibliography_github_projects: "../bib/github.bib"
+#given-name-pattern: JooYoung
+#family-name-pattern: Seo
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-
-library(RefManageR)
-RefManageR::BibOptions(check.entries = FALSE,
-           bib.style = "authoryear",
-           sorting = "",
-           cite.style = "alphabetic",
-           style = "markdown",
-#           hyperlink = FALSE,
-           dashed = FALSE)
-
 library(vitae)
 library(tidyverse)
 library(ezpickr)
 ```
-
-# Skills
-
-\begin{cvskills}
-  \cvskill
-    {Braille}
-    {UEB (Unified English Braille), Nemeth (Math), Korean, Japanese Brailles}
-
-  \cvskill
-    {Data Science}
-    {R (highly advanced: published 3 packages in CRAN), Python (advanced: tensorflow/keras/scikit-learn), SQL}
-
-  \cvskill
-    {Reproducible Report}
-    {Markdown/Rmarkdown, R shiny apps, Jupyter Notebook, LaTeX, Pandoc, lua}
-
-  \cvskill
-    {DevOps}
-    {Git, Docker, AWS, Travis CI, Cygwin}
-
-  \cvskill
-    {Front-End}
-    {HTML/CSS/JS/PHP/ARIA (advanced level to design according to WCAG 2.0/2.1), WordPress, Drupal, Hugo}
-
-  \cvskill
-    {Back-End}
-    {Unix/Linux Shell scripts, LAMP, Django, REST API}
-
-  \cvskill
-    {Compile Programming Languages}
-    {C/C++/C\#, Java, Quorum (as basic level to review source codes and develop simple modules)}
-
-  \cvskill
-    {Quantitative Research}
-    {t-test, within-/between-subjects/Repeated Measures ANOVAs/ANCOVAs/MANOVAs/MANCOVAs, Regressions, \newline HLM, Factor Analysis, Network Analysis, SEM, PCA, Unsupervised/Supervised Machine Learning}
-
-  \cvskill
-    {Qualitative Research}
-    {Virtual Ethnography, Content Analysis, Grounded Theory, Phenomenology, Case Studies, Interaction Analysis}
-
-  \cvskill
-    {Mixed Research}
-    {Text Mining, Quantitative Ethnography, Explanatory/Exploratory Sequential Mixed Methods}
-
-  \cvskill
-    {Languages}
-    {English/Korean (bilingual)}
-\end{cvskills}
-
-# Working Experience
-
-```{r working-experience}
-ezpickr::pick("../data/working-experience.xlsx") %>%
-#  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where)
-```
-
-# Research Experience
-
-```{r research-experience}
-ezpickr::pick("../data/research-experience.xlsx") %>%
-#  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where)
-```
-
-# Certificates
-
-```{r certificate}
-ezpickr::pick("../data/certificate.xlsx") %>%
-  vitae::detailed_entries(what, when, with, where, .protect = FALSE)
-```
-
-# Education
-
-```{r education}
-ezpickr::pick("../data/education.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
-
-# Software Developments and Publications
-
-## Data Science Packages in Comprehensive R Archive Network (CRAN)
-
-<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
-knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "../bib/R_packages.bib")
-#R_package <- suppressMessages(RefManageR::ReadBib("../bib/R_packages.bib", check = FALSE))
-#RefManageR:::print.BibEntry(R_package)
-####vitae::bibliography_entries("../bib/R_packages.bib")
-``` -->
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_R_packages}
-:::
-\endgroup
-
-## Open-Source Project on GitHub
-
-<!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
-#knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "../bib/github.bib")
-#github <- suppressMessages(RefManageR::ReadBib("../bib/github.bib", check = FALSE))
-#RefManageR:::print.BibEntry(github)
-####vitae::bibliography_entries("../bib/github.bib")
-``` -->
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_github_projects}
-:::
-\endgroup
-
-## Officially Code_Contributing R Packages
-
-* [My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
-
-```{r contribute}
-#knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "../bib/contribute.bib")
-ezpickr::pick("../data/contribute.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
-
-# Publications
-
-## Refereed Journal Papers
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_journals}
-:::
-\endgroup
-
-## Papers in Refereed Conference Proceedings
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_proceedings}
-:::
-\endgroup
-
-## Publications in Healthcare
-
-* I have contributed to the following publications for their methods and research designs.
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_healthcare}
-:::
-\endgroup
-
-# Presentations
-
-## Peer-Reviewed Conference Presentations
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("../data/poster_short.txt")`
-
-\endgroup
-
-# Awards and Honors
-
-```{r award}
-ezpickr::pick("../data/award.xlsx") %>%
-#  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where)
-```
-
-# Notes
-
-* This CV is reproducible; all the source code behind this CV is available at [this GitHub repo](https://github.com/jooyoungseo/jy_CV).
-
-* More comprehensive CV is also available if you click [this link](https://jooyoungseo.github.io/jy_CV/JooYoung_Seo_CV.pdf).
-
-![JooYoung Seo's Signature](../data/signature.png)\
