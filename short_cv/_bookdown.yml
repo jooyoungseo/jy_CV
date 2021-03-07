@@ -1,7 +1,7 @@
 output_dir: "."
 rmd_files:
   - "index.Rmd"
-  - "working_exp.Rmd"
+  - "work_exp.Rmd"
   - "education.Rmd"
   - "skills.Rmd"
   - "publication.Rmd"
