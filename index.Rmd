@@ -4,7 +4,7 @@ name: JooYoung
 surname: Seo
 headcolor: 414141
 #qualifications: 
-position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
+position: "Ph.D.; RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
