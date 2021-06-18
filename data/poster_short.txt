@@ -1,4 +1,6 @@
 
+Seo, J. (2021, June). *How to Learn to Code*. Invited Talk presented at the Nature, Webcast: *https://doi.org/10.1038/d41586-021-01638-z*.
+
 Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster presented at the 2nd International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
 
 Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (2021, February). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster presented at the 2nd International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
