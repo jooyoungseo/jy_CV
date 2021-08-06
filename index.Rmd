@@ -5,8 +5,8 @@ surname: Seo
 headcolor: 414141
 #qualifications: 
 position: "Ph.D.; RStudio Trusted Data Science Instructor"
-address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
-phone: "+1 814-777-5825"
+address: "tbd"
+phone: "tbd"
 www: jooyoungseo.com
 email: "jseo1005@illinois.edu"
 twitter: seo_jooyoung
