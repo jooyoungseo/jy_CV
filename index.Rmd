@@ -8,7 +8,7 @@ position: "Ph.D.; RStudio Trusted Data Science Instructor"
 address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
 phone: "+1 814-777-5825"
 www: jooyoungseo.com
-email: "jooyoung@psu.edu"
+email: "jseo1005@illinois.edu"
 twitter: seo_jooyoung
 github: jooyoungseo
 linkedin: jooyoungseo
