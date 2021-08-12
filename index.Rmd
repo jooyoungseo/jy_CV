@@ -5,7 +5,7 @@ surname: Seo
 headcolor: 414141
 #qualifications: 
 position: "Ph.D.; RStudio Trusted Data Science Instructor"
-address: "tbd"
+address: "614 E. Daniel St., Champaign, IL 61820"
 phone: "tbd"
 www: jooyoungseo.com
 email: "jseo1005@illinois.edu"
