@@ -1,9 +1,0 @@
-\newpage
-
-# Certificates
-
-```{r certificate}
-ezpickr::pick("../data/certificate.xlsx") %>%
-  filter(with != "IBM") %>%
-  vitae::detailed_entries(what, when, with, .protect = FALSE)
-```

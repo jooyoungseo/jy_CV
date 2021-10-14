@@ -1,8 +1,0 @@
-# Work Experience
-
-```{r working-experience}
-ezpickr::pick("../data/working-experience.xlsx") %>%
-  dplyr::filter(highlight == 1) %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why, .protect = FALSE)
-```
