@@ -4,10 +4,10 @@ name: JooYoung
 surname: Seo
 headcolor: 414141
 #qualifications: 
-position: "Ph.D.; RStudio Trusted Data Science Instructor"
-address: "614 E. Daniel St., Champaign, IL 61820"
-phone: "tbd"
-www: jooyoungseo.com
+position: "Ph.D."
+address: "614 E. Daniel St. Room 5158, Champaign, IL 61820"
+phone: "+1 217-333-2671"
+www: jooyoungseo.github.io
 email: "jseo1005@illinois.edu"
 twitter: seo_jooyoung
 github: jooyoungseo

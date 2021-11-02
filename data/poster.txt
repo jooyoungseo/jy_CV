@@ -1,4 +1,10 @@
 
+Seo, J. (2021, October). *Non-Visual Strategies for Making Statistical-Computing Accessible*. Lightening talk at the National Center for Supercomputing Applications, Champaign, IL.
+
+Seo, J. (2021, September). *Accessibility of Science Beyond Content Accessibility*. Talk presented at the Argonne National Laboratory (Maths and Computer Science Division): *https://www.anl.gov/event/accessibility-of-science-beyond-content-accessibility*.
+
+Invited panel (2021, August). DO-IT Neuroscience for Neurodiverse Learners Faculty panel at the University of Washington, virtual.
+
 Seo, J. (2021, June). *How to Learn to Code*. Invited Talk presented at the Nature, Webcast: *https://doi.org/10.1038/d41586-021-01638-z*.
 
 Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.

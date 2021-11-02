@@ -2,4 +2,5 @@ short_cv/*
 fonts/*
 *.cls
 *.bat
-tenure_progress.Rmd
+tenure_progress/*
+
