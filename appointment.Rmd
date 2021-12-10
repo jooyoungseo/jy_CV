@@ -1,4 +1,4 @@
-# Academic Appointment
+# Professional Appointment
 
 ```{r appointment}
 ezpickr::pick("data/appointment.xlsx") %>%
