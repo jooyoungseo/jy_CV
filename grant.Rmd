@@ -1,7 +1,18 @@
+
 # Grants
 
-```{r grant}
+<!-- ```{r grant, eval = FALSE}
 ezpickr::pick("data/grant.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
-```
+``` -->
+
+Seo, J. (PI) (submitted for May 2022 - May 2023). Improving Accessible Reproducibility for Data Science Publishing System. *RStudio PBC*. Requested funding amount: \$54,327.
+
+Ludäscher, B. (PI), Seo, J. (Co-PI), & Vilhuber, L. (Co-PI) (submitted for Aug 2022 - Aug 2023). Whole Tale Accessibility Project. *The Sloan Foundation*. Requested funding amount: \$225,000.
+
+Choi, S. (PI), Seo, J. (Co-PI), Mahoney, M. (Co-PI), Davies, C. (Co-PI) (submitted for July 2022 - December 2023). Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?. *The Center on Health, Aging, and Disability, College of Applied Health Sciences*. Requested funding amount: \$30,000.
+
+Seo, J. (PI), & Koh, K. (Co-PI) (submitted for Aug 2022 - May 2025). Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces. *IMLS (Institute of Museum and Library Services) National Leadership Grants for Libraries*. Requested funding amount: \$498,638.
+
+Seo, J. (PI) (awarded: unrestricted beyond Jan 2022 - December 2022). Data Accessibilization: Making Data Science Education Accessible for Blind Learners. *Wallace Foundation grant, Emerging Scholars Program of the International Society of the Learning Sciences (ISLS)*. Awarded funding amount: \$10,000.

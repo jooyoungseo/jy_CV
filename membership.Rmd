@@ -1,9 +1,9 @@
 # Current Memberships
 
   * International Society of the Learning Sciences (ISLS)
-  * Society for Learning Analytics Research (SoLAR)
-  * International Society for Quantitative Ethnography (ISQE)
   * Association for Computing Machinery (ACM)
-  * American Educational Research Association (AERA)
-  * Association for Educational Communications and Technology (AECT)
+  * American Statistical Association (ASA)
+  * International Society for Quantitative Ethnography (ISQE)
   * International Association of Accessibility Professionals (IAAP)
+  * International Educational Data Mining Society (IEDMS)
+  

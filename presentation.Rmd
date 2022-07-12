@@ -1,13 +1,10 @@
-# Presentations
-
-## Peer-Reviewed Conference Presentations
+# Conference Presentations and Invited Talks
 
 `r knitr::knit_child("data/poster_short.txt")`
 
-## Invited Guest Lectures
-
-```{r talk}
+<!-- ## Invited Guest Lectures -->
+<!-- ```{r talk}
 ezpickr::pick("data/talk.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
-```
+``` -->

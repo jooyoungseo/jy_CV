@@ -1,7 +1,22 @@
 # Teaching Experience
-
-```{r teaching-experience}
+<!-- ```{r teaching-experience}
 ezpickr::pick("data/teaching-experience.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
-```
+``` -->
+
+* IS 407: Introduction to Data Science (spring 2022).
+
+* IS 569: Internship (spring 2022). *Advised Ankita Khiratkar (MS IM)*.
+
+* IS 589: Independent Study (spring 2022). *Advised Chetna Beri (MS IM)*.
+
+* INFO 399: Individual Study (spring 2022). *Advised Leo Zhang (CS undergrad --> Currently, Master's student at UCLA Data Science dept)*.
+
+* IS 389: Independent Study (spring 2022). *Advised Miso Kim (BS IS)*.
+
+* IS 226: Introduction to Human-Computer Interaction (fall 2021). *Co-teaching with Dr. Yang Wang*.
+
+* Served as an annual review committee member for iSchool Ph.d. student Smirity Kaushik (advisor Dr. Yang Wang) (spring 2022).
+
+* Served as a field exam committee member for iSchool Ph.D. candidate Jaihyun Park (advisor Dr. Ryan Cordell) (spring 2022).

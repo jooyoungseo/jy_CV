@@ -1,15 +1,25 @@
 
-Seo, J. (2021, October). *Non-Visual Strategies for Making Statistical-Computing Accessible*. Lightening talk at the National Center for Supercomputing Applications, Champaign, IL.
+Seo, J. (2022, April). *Accessible Data Visualization in a Reproducible Way*. Invited talk at Champaign-Urbana Data Science User Group, Champaign, IL (virtual).
 
-Seo, J. (2021, September). *Accessibility of Science Beyond Content Accessibility*. Talk presented at the Argonne National Laboratory (Maths and Computer Science Division): *https://www.anl.gov/event/accessibility-of-science-beyond-content-accessibility*.
+Seo, J. (2022, March). *Understanding Multi-Modality of  Blind People Towards  Inclusive STEM Learning*. Invited talk at the UIUC iSchool Proseminar, Champaign, IL (virtual).
 
-Invited panel (2021, August). DO-IT Neuroscience for Neurodiverse Learners Faculty panel at the University of Washington, virtual.
+Seo, J. (2022, March). *Universal Design = Usability `*` Accessibility (With Practical Examples Beyond Conceptual Frameworks)*. Invited talk at INTE 535 Analysis, Implementation, and Evaluation of Assistive Technology. Instructional Technology program of the University of Alabama, Tuscaloosa, AL (virtual).
+
+Seo, J. (2022, March). *Your Condition is Not Your Conclusion*. Invited talk at HTM4311: Hotel Professional Development at the Hong Kong Polytechnic University (virtual).
+
+Seo, J. (2021, November). *SCAFFOLDing All Abilities into Makerspaces*. Invited talk at the UIUC iSchool IS582: Make, Design, & Learn in Libraries, Champaign, IL (virtual).
+
+Seo, J. (2021, October). *Non-Visual Strategies for Making Statistical-Computing Accessible*. Invited lightening talk at the National Center for Supercomputing Applications, Champaign, IL (virtual).
+
+Seo, J. (2021, September). *Accessibility of Science Beyond Content Accessibility*. Invited talk at the Argonne National Laboratory (Maths and Computer Science Division) (virtual): *https://www.anl.gov/event/accessibility-of-science-beyond-content-accessibility*.
+
+Seo, J. (2021, August). *DO-IT Neuroscience for Neurodiverse Learners*. Invited faculty panel at the University of Washington, virtual.
 
 Seo, J. (2021, June). *How to Learn to Code*. Invited Talk presented at the Nature, Webcast: *https://doi.org/10.1038/d41586-021-01638-z*.
 
-Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
+Seo, J., & Richard, G. T. (2021, February). *Uncovering latent topics of blind people in computer science: structural topic modeling for an email corpus*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA (virtual).
 
-Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (2021, February). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA.
+Donegan, S. R., Porter, C., Fogel, A., Seo, J., Choi, S., & Eagan, B. (2021, February). *U.S. media coverage during COVID-19: an epistemic network analysis of bias, topic, and trajectory*. Poster presented at the second International Conference on Quantitative Ethnography (ICQE), Malibu, CA (virtual).
 
 Seo, J. (2021, January). *Accessible data science beyond visual models*. Talk presented at the rstudio::global(2021), Virtual: *https://global.rstudio.com/student/page/40617*.
 
@@ -43,4 +53,4 @@ Kim, K., Seo, J., & Clariana, R. B. (2016, March). *Automatic knowledge structur
 
 Seo, J. (2015, November). *Assistive technologies for equal access in general education*. Presented at the annual meeting of the Association for Educational Communications and Technology (AECT), Indianapolis, IN.
 
-Seo, J., & Park, E. (2015, October). *The more accessible, the more potential: simple tips for online accessibility*. Presented at the Technology and Learning Conference, Blue Bell, PA.
+Seo, J., & Park, E. (2015, October). *More accessible, More potential: simple tips for online accessibility*. Presented at the Technology and Learning Conference, Blue Bell, PA.

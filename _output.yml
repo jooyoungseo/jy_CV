@@ -3,7 +3,7 @@
 vitae::awesomecv:
   fig_caption: yes
   keep_tex: yes
-#  keep_md: yes
+  # keep_md: yes
 #  citation_package: "default"
 #  includes:
 #    in_header: a11y.tex
