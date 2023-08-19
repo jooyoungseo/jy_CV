@@ -5,6 +5,7 @@ surname: Seo
 headcolor: 414141
 #qualifications: 
 position: "Ph.D."
+pronouns: he/him/his
 address: "614 E. Daniel St. | Room 5158, Champaign, IL 61820"
 phone: "+1 217-333-2671"
 www: jooyoungseo.github.io
