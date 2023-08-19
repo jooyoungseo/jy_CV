@@ -2,7 +2,7 @@
 # Grants
 
 <!-- ```{r grant, eval = FALSE}
-ezpickr::pick("data/grant.xlsx") %>%
+readxl::read_excel("data/grant.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->

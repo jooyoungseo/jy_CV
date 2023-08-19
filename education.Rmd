@@ -1,7 +1,7 @@
 # Education
 
 ```{r education}
-ezpickr::pick("data/education.xlsx") %>%
+readxl::read_excel("data/education.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

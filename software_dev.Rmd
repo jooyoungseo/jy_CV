@@ -3,10 +3,10 @@
 ## Data Science Packages in Comprehensive R Archive Network (CRAN)
 
 <!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
-knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
-#R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
-#RefManageR:::print.BibEntry(R_package)
-####vitae::bibliography_entries("bib/R_packages.bib")
+knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
+# R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
+# RefManageR:::print.BibEntry(R_package)
+#### vitae::bibliography_entries("bib/R_packages.bib")
 ``` -->
 
 ::: {#refs_R_packages}
@@ -17,10 +17,10 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 ## Open-Source Project on GitHub
 
 <!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
-#knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
-#github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
-#RefManageR:::print.BibEntry(github)
-####vitae::bibliography_entries("bib/github.bib")
+# knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
+# github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
+# RefManageR:::print.BibEntry(github)
+#### vitae::bibliography_entries("bib/github.bib")
 ``` -->
 
 ::: {#refs_github_projects}
@@ -31,8 +31,8 @@ knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
 * [My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
 
 ```{r contribute}
-#knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
-ezpickr::pick("data/contribute.xlsx") %>%
+# knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
+readxl::read_excel("data/contribute.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

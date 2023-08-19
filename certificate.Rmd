@@ -2,7 +2,7 @@
 # Certificates
 
 ```{r certificate}
-ezpickr::pick("data/certificate.xlsx") %>%
+readxl::read_excel("data/certificate.xlsx") %>%
   filter(with != "IBM") %>%
   vitae::detailed_entries(what, when, with, .protect = FALSE)
 ```

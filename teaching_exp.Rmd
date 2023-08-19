@@ -1,6 +1,6 @@
 # Teaching Experience
 <!-- ```{r teaching-experience}
-ezpickr::pick("data/teaching-experience.xlsx") %>%
+readxl::read_excel("data/teaching-experience.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
