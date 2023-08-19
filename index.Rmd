@@ -30,8 +30,6 @@ bibliography_healthcare: "bib/healthcare.bib"
 bibliography_working_paper: "bib/working_paper.bib"
 bibliography_R_packages: "bib/R_packages.bib"
 bibliography_github_projects: "bib/github.bib"
-#given-name-pattern: JooYoung
-#family-name-pattern: Seo
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
