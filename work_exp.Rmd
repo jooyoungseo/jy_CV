@@ -1,7 +1,7 @@
 # Work Experience
 
 ```{r working-experience}
-readxl::read_excel("data/working-experience.xlsx") %>%
+vroom::vroom("data/working-experience.csv") %>%
   dplyr::filter(highlight == 1) %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why, .protect = FALSE)

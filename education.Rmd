@@ -1,7 +1,7 @@
 # Education
 
 ```{r education}
-readxl::read_excel("data/education.xlsx") %>%
+vroom::vroom("data/education.csv") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

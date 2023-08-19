@@ -1,6 +1,6 @@
 # Teaching Experience
 <!-- ```{r teaching-experience}
-readxl::read_excel("data/teaching-experience.xlsx") %>%
+vroom::vroom("data/teaching-experience.csv") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->

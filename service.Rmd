@@ -1,7 +1,7 @@
 # Service
 
 ```{r service}
-readxl::read_excel("data/service.xlsx") %>%
+vroom::vroom("data/service.csv") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

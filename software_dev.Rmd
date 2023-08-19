@@ -32,7 +32,7 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 
 ```{r contribute}
 # knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
-readxl::read_excel("data/contribute.xlsx") %>%
+vroom::vroom("data/contribute.csv") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

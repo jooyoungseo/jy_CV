@@ -1,0 +1,17 @@
+﻿what,when,with,where,why,highlight
+Software Engineer Intern,May. 2020 - Aug. 2020,Rstudio PBC,"Boston, MA","Worked on accessibility improvement projects for Rstudio Server and Desktop IDE, Shiny and Rmarkdown.",1
+,,,,"Patched Shiny's bootstrap dependencies to improve navigation of Shiny apps for screen-reader and keyboard users (alert, tooltip, popover, modal dialog, dropdown, tab Panel, collapse, and carousel elements). \href{https://github.com/rstudio/shiny/pull/2911}{(Shiny PR \#2911)}",1
+,,,,Made selectInput widget accessible by patching selectize-a11y-plugin JS library. \href{https://github.com/rstudio/shiny/pull/2993}{(Shiny PR \#2993)},1
+,,,,Developed a way to pass dynamic alt attribute for reactive plot objects in Shiny UI. \href{https://github.com/rstudio/shiny/pull/3006}{(Shiny PR \#3006)},1
+,,,,Made fontawesome and glyphicon readable to assistive technologies in Shiny UI. \href{https://github.com/rstudio/shiny/pull/2917}{(Shiny PR \#2917)},1
+,,,,Made dateInput and dateRangeInput widgets accessible for screen readers. \href{https://github.com/rstudio/shiny/pull/2978}{(Shiny PR \#2978)},0
+,,,,Fixed keyboard accessibility for file picker button. \href{https://github.com/rstudio/shiny/pull/2937}{(Shiny PR \#2937)},0
+,,,,Added semantic landmarks for main and sidebarPanels via aria roles. \href{https://github.com/rstudio/shiny/pull/3009}{(Shiny PR \#3009)},0
+,,,,Made dynamic output objects accessible to be announced to assistive technologies in real time via aria-live. \href{https://github.com/rstudio/shiny/pull/3002}{(Shiny PR \#3002)},0
+,,,,Developed a way to pass document-level lang attribute to Shiny apps. \href{https://github.com/rstudio/shiny/pull/2920}{(Shiny PR \#2920)},0
+,,,,Developed JS code to resolve accessibility issue in highlighted code blocks of HTML output produced by Pandoc for screen reader users. \href{https://github.com/rstudio/rmarkdown/pull/1833}{(Rmarkdown PR \#1833)},1
+,,,,Added the customizable lang attribute to ioslides\_presentation output. \href{https://github.com/rstudio/rmarkdown/pull/1841}{(Rmarkdown PR \#1841)},0
+,,,,Added the number\_sections argument to the word\_document() output format. \href{https://github.com/rstudio/rmarkdown/pull/1869}{(Rmarkdown PR \#1869)},0
+,,,,Authored technical documents on \href{https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2}{how to run RStudio Server via Windows Subsystem for Linux} and \href{https://support.rstudio.com/hc/en-us/articles/360045612413-RStudio-Screen-Reader-Support}{RStudio Screen Reader Support.},1
+Co-Founder and Project Manager,Jul. 2010 - Jun. 2011,ICE Soft,"Seoul, South Korea",Co-founded and managed a start-up company to develop Android-based navigation App and assistive technology for blind people.,1
+,,,,"Applied for and received a \$30,000 fund from the city of Seoul.",1
