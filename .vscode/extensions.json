@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "github.codespaces",
+    "tecosaur.latex-utilities",
+    "james-yu.latex-workshop",
+    "ban.spellright",
+    "github.vscode-pull-request-github",
+    "igorjrd.cslpreview",
+    "reditorsupport.r",
+    "rdebugger.r-debugger",
+    "redhat.vscode-xml",
+    "ionutvmi.path-autocomplete"
+  ]
+}

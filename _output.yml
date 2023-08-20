@@ -1,8 +1,8 @@
 vitae::awesomecv:
+  page_total: yes
   fig_caption: yes
   keep_tex: yes
   # keep_md: yes
-#  citation_package: "default"
   pandoc_args:
     # - --lua-filter="lua/multiple-bibliographies.lua"
     - --lua-filter="lua/strong.lua"
@@ -11,5 +11,4 @@ vitae::markdowncv:
   pandoc_args:
     # - --lua-filter="lua/multiple-bibliographies.lua"
     - --lua-filter="lua/strong.lua"
-  title: CV
   

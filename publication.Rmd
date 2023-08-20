@@ -16,10 +16,9 @@
 ## Refereed Journal Papers
 
 ```{r}
-vitae::bibliography_entries("bib/journal.bib") %>%
-  # arrange(desc(row_number())) %>%
-  # select(-annote)
-  relocate(annote)
+vitae::bibliography_entries("bib/journal.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
 ```
 
 ## Papers in Refereed Conference Proceedings

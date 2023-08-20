@@ -1,4 +1,5 @@
 ---
+title: CV
 graphics: yes
 name: JooYoung
 surname: Seo
@@ -16,21 +17,15 @@ linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software engineer, and internationally certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa6-cv.csl"
-nocite: "@*"
+csl: "csl/apa7-cv-jy-edition.csl"
 header-includes:
-  - \usepackage{fancyhdr}
-  - \pagestyle{fancy}
-  - \fancyhf{}
-  - \fancyhead[R]{\thepage}
+  # allow URLs to break at any character
+  - \usepackage{xurl}
+  # - \usepackage{fancyhdr}
+  # - \pagestyle{fancy}
+  # - \fancyhf{}
+  # - \fancyhead[R]{\thepage}
 knit: (function(input, ...) {bookdown::render_book(input, output_format = "all", ...)})
-# bibliography_selected: "bib/selected.bib"
-# bibliography_journals: "bib/journal.bib"
-# bibliography_proceedings: "bib/proceedings.bib"
-# bibliography_healthcare: "bib/healthcare.bib"
-# bibliography_working_paper: "bib/working_paper.bib"
-# bibliography_R_packages: "bib/R_packages.bib"
-# bibliography_github_projects: "bib/github.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
