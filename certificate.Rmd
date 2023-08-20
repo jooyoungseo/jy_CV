@@ -2,7 +2,7 @@
 # Certificates
 
 ```{r certificate}
-readxl::read_excel("data/certificate.xlsx") %>%
+vroom::vroom("data/certificate.csv") %>%
   filter(with != "IBM") %>%
   vitae::detailed_entries(what, when, with, .protect = FALSE)
 ```

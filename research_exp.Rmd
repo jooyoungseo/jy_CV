@@ -4,7 +4,7 @@
 # Research Experience
 
 ```{r research-experience}
-readxl::read_excel("data/research-experience.xlsx") %>%
+vroom::vroom("data/research-experience.csv") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

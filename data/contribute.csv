@@ -1,0 +1,11 @@
+﻿what,when,with,where,why
+shiny: Web Application Framework for R,2020,"Chang, W., Cheng, J., Allaire, J., Xie, Y., & McPherson, J.",https://cran.r-project.org/web/packages/shiny/,Contributed to improving keyboard and TTS accessibility for input widgets.
+vitae: Curriculum Vitae for R Markdown,2020,"O'Hara-Wild, M., & Hyndman, R.",https://cran.r-project.org/web/packages/vitae/,Contributed to enabling LaTeX engine customization.
+,,,,Contributed to displaying multiple bibliographies based on lua filter.
+rmarkdown: Dynamic Documents for R,2019,"Allaire, J., Xie, Y., et al.",https://cran.r-project.org/web/packages/rmarkdown/,Contributed to improving ioslides_presentation accessibility for screen reading software.
+bookdown: Authoring Books and Technical Documents with R Markdown,2019,"Xie, Y.",https://cran.r-project.org/web/packages/bookdown/,"Developed context_document2, github_document2, beamer_presentation2, html_fragment2, html_notebook2, html_vignette2, ioslides_presentation2, slidy_presentation2 and rtf_document2 functions to enable R markdown users to utilize cross-references for figures and tables through bookdown package."
+distill: 'R Markdown' Format for Scientific and Technical Writing,2019,"Allaire, J., Iannone, R., & Xie, Y.",https://cran.r-project.org/web/packages/distill/,Contributed to displaying more metadata for journal article bib_entries.
+,,,,Improved screen reader accessibility for navigation bar.
+,,,,"Added missing Google Scholar meta tags for conference, technical report, and dissertation types."
+wordcountaddin: Word counts and readability statistics in R markdown documents,2019,"Marwick, B.",https://git.io/JkJca,Contributed to text_stats() function for R markdown users to Get a word count and some other stats for selected text (excluding code chunks and inline code).
+BrailleR: Improved Access for Blind Users,2019,"Godfrey, A. J. R., Warren, D., Murrell, P., Bilton, T., & Sorge, V.",https://cran.r-project.org/web/packages/BrailleR/,Contributed to BRLThis() function to enable blind R users to convert a graph into a pdf ready for embossing in Braille.
