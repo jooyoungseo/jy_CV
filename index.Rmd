@@ -23,7 +23,7 @@ header-includes:
   - \pagestyle{fancy}
   - \fancyhf{}
   - \fancyhead[R]{\thepage}
-knit: bookdown::render_book
+knit: (function(input, ...) {bookdown::render_book(input, output_format = "all", ...)})
 bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
