@@ -25,7 +25,7 @@ header-includes:
   # - \pagestyle{fancy}
   # - \fancyhf{}
   # - \fancyhead[R]{\thepage}
-knit: (function(input, ...) {bookdown::render_book(input, output_format = "all", ...)})
+knit: (function(input, ...) {bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV", output_format = "all", envir = globalenv(), ...)})
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
