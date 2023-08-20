@@ -9,8 +9,9 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 #### vitae::bibliography_entries("bib/R_packages.bib")
 ``` -->
 
-::: {#refs_R_packages}
-:::
+```{r}
+bibliography_entries("bib/R_packages.bib")
+```
 
 \newpage
 
@@ -23,8 +24,9 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 #### vitae::bibliography_entries("bib/github.bib")
 ``` -->
 
-::: {#refs_github_projects}
-:::
+```{r}
+bibliography_entries("bib/github.bib")
+```
 
 ## Officially Code_Contributing R Packages
 

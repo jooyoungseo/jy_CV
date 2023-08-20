@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.18)  19 AUG 2023 20:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.18)  19 AUG 2023 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,40 +799,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 190.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 190.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 194.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 194.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 197.
+(Font)              scaled to size 10.95pt on input line 196.
 
-Overfull \hbox (80.44417pt too wide) in paragraph at lines 193--200
-\TU/SourceSansPro(0)/m/n/10.95 graphic Research in Digital Learning Environments. \TU/SourceSansPro(0)/m/it/10.95 TechTrends\TU/SourceSansPro(0)/m/n/10.95 , \TU/SourceSansPro(0)/m/it/10.95 66\TU/SourceSansPro(0)/m/n/10.95 (1), 102–111. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--256
-
+Overfull \hbox (80.44417pt too wide) in paragraph at lines 193--198
+\TU/SourceSansPro(0)/m/n/10.95 graphic Research in Digital Learning Environments. \TU/SourceSansPro(0)/m/it/10.95 TechTrends\TU/SourceSansPro(0)/m/n/10.95 , \TU/SourceSansPro(0)/m/it/10.95 66\TU/SourceSansPro(0)/m/n/10.95 (1), 102–111. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][]$[] 
  []
 
 
@@ -843,17 +816,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 303--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--317
-
- []
-
-
-Overfull \hbox (202.29318pt too wide) in paragraph at lines 380--384
+Overfull \hbox (202.29318pt too wide) in paragraph at lines 369--373
 \TU/SourceSansPro(0)/m/n/10.95 tional Laboratory (Maths and Computer Science Division): []$[][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
  []
 
@@ -873,27 +836,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Overfull \hbox (16.17514pt too wide) in paragraph at lines 512--517
+Overfull \hbox (16.17514pt too wide) in paragraph at lines 501--506
 []\TU/SourceSansPro(0)/b/n/10.95 Seo, J. \TU/SourceSansPro(0)/m/n/10.95 (2019). \TU/SourceSansPro(0)/m/it/10.95 Ezviewr: View tidy data in preferable spreadsheet\TU/SourceSansPro(0)/m/n/10.95 . Retrieved from []$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (13.8836pt too wide) in paragraph at lines 550--550
+Overfull \hbox (13.8836pt too wide) in paragraph at lines 539--539
  \TU/SourceSansPro(2)/m/it/9 project.org/web/packages/rmarkdown/[]|
  []
 
 
-Overfull \hbox (10.2206pt too wide) in paragraph at lines 553--553
+Overfull \hbox (10.2206pt too wide) in paragraph at lines 542--542
  \TU/SourceSansPro(2)/m/it/9 project.org/web/packages/bookdown/[]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []\TU/SourceSansPro(2)/m/n/9 Developed context_document2, github_document2, beamer_presentation2, html_fragment2, html_notebook2, html_vignette2,
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 553--553
+Underfull \hbox (badness 2351) in paragraph at lines 542--542
 \TU/SourceSansPro(2)/m/n/9 ioslides_presentation2, slidy_presentation2 and rtf_document2 functions to enable R markdown users to utilize cross-references for
  []
 
@@ -937,11 +900,11 @@ Package rerunfilecheck Info: File `JooYoung_Seo_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32823 strings out of 477845
- 662741 string characters out of 5822989
+ 32821 strings out of 477845
+ 662638 string characters out of 5822989
  1945879 words of memory out of 5000000
- 53222 multiletter control sequences out of 15000+600000
- 562449 words of font info for 129 fonts, out of 8000000 for 9000
+ 53221 multiletter control sequences out of 15000+600000
+ 562441 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  116i,12n,121p,553b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

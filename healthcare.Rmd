@@ -1,10 +1,12 @@
+
 ## Publications in Healthcare
 
-::: {#refs_healthcare}
-:::
-
+```{r}
+bibliography_entries("bib/healthcare.bib")
+```
 
 ## Working Papers under Revision or Review
 
-::: {#refs_working_paper}
-:::
+```{r}
+bibliography_entries("bib/working_paper.bib")
+```

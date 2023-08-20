@@ -24,13 +24,13 @@ header-includes:
   - \fancyhf{}
   - \fancyhead[R]{\thepage}
 knit: (function(input, ...) {bookdown::render_book(input, output_format = "all", ...)})
-bibliography_selected: "bib/selected.bib"
-bibliography_journals: "bib/journal.bib"
-bibliography_proceedings: "bib/proceedings.bib"
-bibliography_healthcare: "bib/healthcare.bib"
-bibliography_working_paper: "bib/working_paper.bib"
-bibliography_R_packages: "bib/R_packages.bib"
-bibliography_github_projects: "bib/github.bib"
+# bibliography_selected: "bib/selected.bib"
+# bibliography_journals: "bib/journal.bib"
+# bibliography_proceedings: "bib/proceedings.bib"
+# bibliography_healthcare: "bib/healthcare.bib"
+# bibliography_working_paper: "bib/working_paper.bib"
+# bibliography_R_packages: "bib/R_packages.bib"
+# bibliography_github_projects: "bib/github.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}

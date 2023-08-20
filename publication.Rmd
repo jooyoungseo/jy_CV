@@ -15,10 +15,15 @@
 
 ## Refereed Journal Papers
 
-::: {#refs_journals}
-:::
+```{r}
+vitae::bibliography_entries("bib/journal.bib") %>%
+  # arrange(desc(row_number())) %>%
+  # select(-annote)
+  relocate(annote)
+```
 
 ## Papers in Refereed Conference Proceedings
 
-::: {#refs_proceedings}
-:::
+```{r}
+bibliography_entries("bib/proceedings.bib")
+```
