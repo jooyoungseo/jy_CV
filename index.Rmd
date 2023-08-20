@@ -1,5 +1,5 @@
 ---
-title: CV
+title: JooYoung Seo's Curriculum Vitae
 graphics: yes
 name: JooYoung
 surname: Seo
