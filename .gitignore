@@ -306,4 +306,8 @@ fonts/*
 *.cls
 *.bat
 tenure_progress/*
+zotero.bat
+bib2biblatex.bat
+recent_pub.bib
+output.bib
 
