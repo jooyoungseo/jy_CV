@@ -7,12 +7,25 @@ vroom::vroom("data/grant.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-Seo, J. (PI) (submitted for May 2022 - May 2023). Improving Accessible Reproducibility for Data Science Publishing System. *RStudio PBC*. Requested funding amount: \$54,327.
+<!-- ## Funded Projects -->
 
-Ludäscher, B. (PI), Seo, J. (Co-PI), & Vilhuber, L. (Co-PI) (submitted for Aug 2022 - Aug 2023). Whole Tale Accessibility Project. *The Sloan Foundation*. Requested funding amount: \$225,000.
+- "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, IMLS Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (ongoing).
 
-Choi, S. (PI), Seo, J. (Co-PI), Mahoney, M. (Co-PI), Davies, C. (Co-PI) (submitted for July 2022 - December 2023). Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?. *The Center on Health, Aging, and Disability, College of Applied Health Sciences*. Requested funding amount: \$30,000.
+- "Inclusive Data Science: Fostering Accessibility and Reproducibility with Multimodal Learning Strategies," PI, Teach Access Faculty Grants, Tier 3, $5,000, May 2023 - May 2024 (ongoing).
 
-Seo, J. (PI), & Koh, K. (Co-PI) (submitted for Aug 2022 - May 2025). Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces. *IMLS (Institute of Museum and Library Services) National Leadership Grants for Libraries*. Requested funding amount: \$498,638.
+- "Co-designing an Alexa-Based Conversational mHealth System with Visually Impaired People to Promote Physical Activities," Co-PI, University of Illinois at Urbana-Champaign, CHAD Pilot Grant Program, $29,866, 2023-2024 (ongoing).
 
-Seo, J. (PI) (awarded: unrestricted beyond Jan 2022 - December 2022). Data Accessibilization: Making Data Science Education Accessible for Blind Learners. *Wallace Foundation grant, Emerging Scholars Program of the International Society of the Learning Sciences (ISLS)*. Awarded funding amount: \$10,000.
+- "Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces," PI, IMLS National Leadership Grants, Grant #LG-252360-OLS-22, $498,638, Aug 2022 - May 2025 (ongoing).
+
+- "Improving Accessible Reproducibility for Data Science Publishing System," PI, Posit (unrestricted gift), $54,327, May 2022 - Present (ongoing).
+
+- "Data Accessibilization: Making Data Science Education Accessible for Blind Learners," PI, Wallace Foundation, Emerging Scholars Program, International Society of the Learning Sciences, $10,000, Jan 2022 - Dec 2022 (completed).
+
+<!-- 
+## Unfunded Projects
+
+- "Developing an Accessible Mobile Food Tracking Application With and For Blind People," Co-PI, National Institute on Disability, Independent Living, and Rehabilitation Research, HHS-2023-ACL-NIDILRR-IFDV-0000, $600,000 (UIUC: $180,000), 2023-2026 (unawarded).
+
+- "Whole Tale Accessibility Project," Co-PI, The Sloan Foundation, Submitted for Aug 2022 - Aug 2023, $225,000 (unawarded).
+
+- "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded). -->
