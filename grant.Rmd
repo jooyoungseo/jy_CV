@@ -11,6 +11,8 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, IMLS Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (ongoing).
 
+- "Insight without Sight: Enhancing Data Literacy through Multimodal Data Science Education - Smith-Kettlewell Summer Institute," Subaward PI, Rehabilitation Engineering Research Centers (RERC) Program: RERC on Blindness and Low Vision, National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), Grant #90REGE0018-01-00, $11,975, July 17, 2023 - August 11, 2023 (completed).
+
 - "Inclusive Data Science: Fostering Accessibility and Reproducibility with Multimodal Learning Strategies," PI, Teach Access Faculty Grants, Tier 3, $5,000, May 2023 - May 2024 (ongoing).
 
 - "Co-designing an Alexa-Based Conversational mHealth System with Visually Impaired People to Promote Physical Activities," Co-PI, University of Illinois at Urbana-Champaign, CHAD Pilot Grant Program, $29,866, 2023-2024 (ongoing).
@@ -21,17 +23,12 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Data Accessibilization: Making Data Science Education Accessible for Blind Learners," PI, Wallace Foundation, Emerging Scholars Program, International Society of the Learning Sciences, $10,000, Jan 2022 - Dec 2022 (completed).
 
-<!-- 
-## Unfunded Projects
+<!-- ## Unfunded Projects
 
 - "Developing an Accessible Mobile Food Tracking Application With and For Blind People," Co-PI, National Institute on Disability, Independent Living, and Rehabilitation Research, HHS-2023-ACL-NIDILRR-IFDV-0000, $600,000 (UIUC: $180,000), 2023-2026 (unawarded).
 
 - "Whole Tale Accessibility Project," Co-PI, The Sloan Foundation, Submitted for Aug 2022 - Aug 2023, $225,000 (unawarded).
 
-- "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded). -->
+- "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded).
 
-<!-- Insight without Sight: Enhancing Data Literacy through Multimodal Data Science Education 
-$11,975.00
-National Institute on Disability, Independent Living, and Rehabilitation Research
-subaward PI
 NSF Delta -->
