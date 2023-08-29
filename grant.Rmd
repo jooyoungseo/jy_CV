@@ -30,4 +30,8 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded). -->
 
-<!-- Subaward for SKI and NSF Delta -->
+<!-- Insight without Sight: Enhancing Data Literacy through Multimodal Data Science Education 
+$11,975.00
+National Institute on Disability, Independent Living, and Rehabilitation Research
+subaward PI
+NSF Delta -->
