@@ -26,3 +26,9 @@ vitae::bibliography_entries("bib/journal.bib")
 ```{r}
 bibliography_entries("bib/proceedings.bib")
 ```
+
+## Book Chapters
+
+```{r}
+bibliography_entries("bib/book.bib")
+```
