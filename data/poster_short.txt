@@ -1,3 +1,34 @@
+Seo, J. (2023, November). *Insight Over Eyesight: My Journey as a Blind Data Scientist*. Invited talk at the Chicago Lighthouse Career Fair, Chicago, IL (virtual).
+
+Seo, J. (2023, November). *Beyond Sight: Envisioning Data Science Through Multimodal Access*. Invited as a keynote speaker at the 2023 UIUC iSchool’s Research Showcase, Champaign, IL.
+
+Seo, J. (2023, November). *Multimodal Data Representation for Inclusive Data Science Education*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
+
+Seo, J. (2023, July). *Screen Reader User Experience Deep Dive*. Invited talk at the Microsoft Visual Studio Code Team, virtual.
+
+Seo, J. (2023, June). *Perceiving Beyond Vision: My Journey Through Dreamscapes, Numerical Cognition, and a Blind Critique of Inclusive Data Visualization*. Invited talk at the Dagstuhl Inclusive Data Visualization Workshop, Dagstuhl, Germany.
+
+Seo, J. (2023, May). *Enhancing Accessibility in Programming and Fostering Inclusive Data Science via Multimodal Strategies*. Invited talk at the Campus Research Computing Consortium, virtual.
+
+Invited panel (2023, May): *Human Computer Relationships @Work: Embodiment, Inclusive Design, Accessibility, and Emerging Technologies for Learning*, hosted by PhET Interactive Simulations at University of Colorado Boulder.
+
+Invited demo by Microsoft (2023, April): *VSCode Accessibility*. VS Code Day 2023: https://m.youtube.com/watch?v=X3qUfOB3x8Q
+
+Invited panel (2022, December): *Integrating Accessibility into a Computing Career*, hosted by Associate Professor Stacy Branham at Informatics of the University of California, Irvine. (virtual).
+
+Seo, J. (2022, November). *Accessible Library Makerspaces*. Invited talk at the UIUC iSchool IS571: Accessibility in Library Resources, Champaign, IL (virtual).
+
+Seo, J. (2022, September). *Digital Accessibility*. Invited panel at the INFOcon 2022, virtual.
+
+Seo, J. (2022, April). *Accessible Data Visualization in a Reproducible Way*. Invited talk at Champaign-Urbana Data Science User Group, Champaign, IL (virtual).
+
+Seo, J. (2022, March). *Understanding Multi-Modality of  Blind People Towards  Inclusive STEM Learning*. Invited talk at the UIUC iSchool Proseminar, Champaign, IL (virtual).
+
+Seo, J. (2022, March). *Universal Design = Usability `*` Accessibility (With Practical Examples Beyond Conceptual Frameworks)*. Invited talk at INTE 535 Analysis, Implementation, and Evaluation of Assistive Technology. Instructional Technology program of the University of Alabama, Tuscaloosa, AL (virtual).
+
+Seo, J. (2022, March). *Your Condition is Not Your Conclusion*. Invited talk at HTM4311: Hotel Professional Development at the Hong Kong Polytechnic University (virtual).
+
+Seo, J. (2021, November). *SCAFFOLDing All Abilities into Makerspaces*. Invited talk at the UIUC iSchool IS582: Make, Design, & Learn in Libraries, Champaign, IL (virtual).
 
 Seo, J. (2021, October). *Non-Visual Strategies for Making Statistical-Computing Accessible*. Lightening talk at the National Center for Supercomputing Applications, Champaign, IL.
 

@@ -5,8 +5,8 @@
 bibliography_entries("bib/healthcare.bib")
 ```
 
-<!-- ## Working Papers under Revision or Review -->
+## Working Papers under Revision or Review
 
-<!-- ```{r} -->
-<!-- bibliography_entries("bib/working_paper.bib") -->
-<!-- ``` -->
+```{r}
+bibliography_entries("bib/working_paper.bib")
+```

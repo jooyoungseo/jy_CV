@@ -5,7 +5,7 @@ vroom::vroom("data/teaching-experience.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-* IS 407: Introduction to Data Science (spring 2022).
+* IS 407: Introduction to Data Science (spring 2022-present).
 
 * IS 569: Internship (spring 2022). *Advised Ankita Khiratkar (MS IM)*.
 

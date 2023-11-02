@@ -2,12 +2,13 @@ vitae::awesomecv:
   page_total: yes
   fig_caption: yes
   keep_tex: yes
-  # keep_md: yes
+  keep_md: yes
   pandoc_args:
     # - --lua-filter="lua/multiple-bibliographies.lua"
     - --lua-filter="lua/strong.lua"
 vitae::markdowncv:
   theme: kjhealy
+  keep_md: yes
   pandoc_args:
     # - --lua-filter="lua/multiple-bibliographies.lua"
     - --lua-filter="lua/strong.lua"

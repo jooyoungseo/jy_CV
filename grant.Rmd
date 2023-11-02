@@ -7,7 +7,7 @@ vroom::vroom("data/grant.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-<!-- ## Funded Projects -->
+## Awarded Grants
 
 - "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (ongoing).
 
@@ -25,19 +25,16 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Data Accessibilization: Making Data Science Education Accessible for Blind Learners," PI, Wallace Foundation, Emerging Scholars Program, International Society of the Learning Sciences, $10,000, Jan 2022 - Dec 2022 (completed).
 
-<!-- ## Unfunded Projects
+## Under-Review Grants
+
+- "Collaborative Research: SpatioTemporal Representations for Information and Data Equity: An Interactive AudioTactile System for BVI Data Scientists," PI (at UIUC), National Science Foundation (NSF), Workplace Equity for Persons with Disabilities in STEM and STEM Education (nsf23593), $573,548 (for UIUC) out of $1,499,917 total, July 2024 - June 2028 (under review).
+
+<!-- ## Unawarded Projects
+
+- "Multimodal Data Representations Using Generative AI with, by, and for Blind and Low-Vision People," PI, Google Research: Award for Inclusion Research Program, $60,000, August 2023 - July 2024 (unawarded).
 
 - "Developing an Accessible Mobile Food Tracking Application With and For Blind People," Co-PI, National Institute on Disability, Independent Living, and Rehabilitation Research, HHS-2023-ACL-NIDILRR-IFDV-0000, $600,000 (UIUC: $180,000), 2023-2026 (unawarded).
 
 - "Whole Tale Accessibility Project," Co-PI, The Sloan Foundation, Submitted for Aug 2022 - Aug 2023, $225,000 (unawarded).
 
-- "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded).
-
-"Category I: Crossing the Divide Between Today's Practice and Tomorrow's Science"
-NSF grant #2005572
-role: senior personnel
-period: October, 2021 through September 30, 2026
-allocated amount: .5 FTE (academic year)
-total project amount: $10,000,000.00
-
- -->
+- "Understanding the Sleep Patterns of Blind Populations Using Self-Tracking Technologies - What is It Like and How can We Support It?", Co-PI, The Center on Health, Aging, and Disability, College of Applied Health Sciences, Submitted for July 2022 - December 2023, $30,000 (unawarded). -->
