@@ -30,8 +30,8 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
   @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @moon2023navigating,
   @lee2024identify, @seo2024maidr, @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023,
-  @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create, @R-edmdown,
-  @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
+  @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create,
+  @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
 
 ---
 
@@ -133,21 +133,21 @@ vroom::vroom("data/grant.csv") %>%
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc4288248ec.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c647f7c77.yaml
 :::
 
 ## Papers in Refereed Conference Proceedings
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc47a661a76.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c2ea0759a.yaml
 :::
 
 ## Book Chapters
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc44971533c.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7b5e366e.yaml
 :::
 
 <!--chapter:end:publication.Rmd-->
@@ -157,14 +157,14 @@ C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc44971533c.yaml
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc4387430d6.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c4765327b.yaml
 :::
 
 ## Working Papers under Revision or Review
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc43d365cff.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7cbe1238.yaml
 :::
 
 <!--chapter:end:healthcare.Rmd-->
@@ -251,7 +251,7 @@ vroom::vroom("data/talk.csv") %>%
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc47118ba4.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c6350717f.yaml
 :::
 
 <!--chapter:end:media_coverage.Rmd-->
@@ -269,7 +269,7 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc454f93f3b.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7aa6623d.yaml
 :::
 
 \newpage
@@ -285,7 +285,7 @@ C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc454f93f3b.yaml
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/RtmpmYpod5/file1bc4c582756.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c20f276e.yaml
 :::
 
 ## Officially Code_Contributing R Packages
