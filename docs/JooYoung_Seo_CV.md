@@ -26,7 +26,7 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @konecki2017role, @seo2017embracing, @seo2018accessibility, @seo2018making, @seo2019discovering,
   @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
-  @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccessInPress,
+  @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
   @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
   @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @moon2023navigating,
   @lee2024identify, @seo2024maidr, @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023,
@@ -133,21 +133,21 @@ vroom::vroom("data/grant.csv") %>%
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c647f7c77.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f606c8522c6.yaml
 :::
 
 ## Papers in Refereed Conference Proceedings
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c2ea0759a.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f602f8f1f6b.yaml
 :::
 
 ## Book Chapters
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7b5e366e.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6046c64dbc.yaml
 :::
 
 <!--chapter:end:publication.Rmd-->
@@ -157,14 +157,14 @@ C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7b5e366e.yaml
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c4765327b.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f605b2f71f5.yaml
 :::
 
 ## Working Papers under Revision or Review
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7cbe1238.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6032724373.yaml
 :::
 
 <!--chapter:end:healthcare.Rmd-->
@@ -251,7 +251,7 @@ vroom::vroom("data/talk.csv") %>%
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c6350717f.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6054474c5d.yaml
 :::
 
 <!--chapter:end:media_coverage.Rmd-->
@@ -269,7 +269,7 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7aa6623d.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f60242b6c8a.yaml
 :::
 
 \newpage
@@ -285,7 +285,7 @@ C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c7aa6623d.yaml
 
 
 ::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp8A12gg/file5b0c20f276e.yaml
+C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f60435739f.yaml
 :::
 
 ## Officially Code_Contributing R Packages
