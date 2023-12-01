@@ -2,7 +2,7 @@ Seo, J. (2023, November). *Insight Over Eyesight: My Journey as a Blind Data Sci
 
 Seo, J. (2023, November). *Beyond Sight: Envisioning Data Science Through Multimodal Access*. Invited as a keynote speaker at the 2023 UIUC iSchool’s Research Showcase, Champaign, IL.
 
-Seo, J. (2023, November). *Multimodal Data Representation for Inclusive Data Science Education*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
+Seo, J. (2023, November). *Understanding Multi-Modality of Blind People Towards Inclusive STEM Learning*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
 
 Seo, J. (2023, July). *Screen Reader User Experience Deep Dive*. Invited talk at the Microsoft Visual Studio Code Team, virtual.
 
