@@ -15,11 +15,20 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: November 02, 2023
+date: December 01, 2023
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
+bibliography:
+  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac7ee45499.yaml
+  d109e98058cd5ccf7ad39dcb6b0899eb: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac5ff97749.yaml
+  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac98734fa.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac1cc35adb.yaml
+  80ba2804df5f1781b1e6fc147e07e3b3: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac3fe1bc3.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac5f7d19bd.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac348528c4.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac12b52ecb.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -132,22 +141,19 @@ vroom::vroom("data/grant.csv") %>%
 ## Refereed Journal Papers
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f606c8522c6.yaml
+::: {#refs-46020d03b7b38fe908a80a9add8e9ee0}
 :::
 
 ## Papers in Refereed Conference Proceedings
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f602f8f1f6b.yaml
+::: {#refs-d109e98058cd5ccf7ad39dcb6b0899eb}
 :::
 
 ## Book Chapters
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6046c64dbc.yaml
+::: {#refs-20571be9e60cca0b4f6994e8763d6b1d}
 :::
 
 <!--chapter:end:publication.Rmd-->
@@ -156,15 +162,13 @@ C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6046c64dbc.yaml
 ## Publications in Healthcare
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f605b2f71f5.yaml
+::: {#refs-d735fc8e424a60effc95b6b86f680502}
 :::
 
 ## Working Papers under Revision or Review
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6032724373.yaml
+::: {#refs-80ba2804df5f1781b1e6fc147e07e3b3}
 :::
 
 <!--chapter:end:healthcare.Rmd-->
@@ -176,7 +180,7 @@ Seo, J. (2023, November). *Insight Over Eyesight: My Journey as a Blind Data Sci
 
 Seo, J. (2023, November). *Beyond Sight: Envisioning Data Science Through Multimodal Access*. Invited as a keynote speaker at the 2023 UIUC iSchool’s Research Showcase, Champaign, IL.
 
-Seo, J. (2023, November). *Multimodal Data Representation for Inclusive Data Science Education*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
+Seo, J. (2023, November). *Understanding Multi-Modality of Blind People Towards Inclusive STEM Learning*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
 
 Seo, J. (2023, July). *Screen Reader User Experience Deep Dive*. Invited talk at the Microsoft Visual Studio Code Team, virtual.
 
@@ -250,8 +254,7 @@ vroom::vroom("data/talk.csv") %>%
 # Media Coverage
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f6054474c5d.yaml
+::: {#refs-37f5ad1f1850196509ec80c98fd22097}
 :::
 
 <!--chapter:end:media_coverage.Rmd-->
@@ -268,8 +271,7 @@ knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
 ``` -->
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f60242b6c8a.yaml
+::: {#refs-e4f6fe834f2d1b4cdb55cfea3d65ab90}
 :::
 
 \newpage
@@ -284,8 +286,7 @@ C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f60242b6c8a.yaml
 ``` -->
 
 
-::: {#bibliography}
-C:/Users/jseo1005/AppData/Local/Temp/Rtmp2DjYRX/file1f60435739f.yaml
+::: {#refs-2061fa253ba446d2f8d9d3810e4746e6}
 :::
 
 ## Officially Code_Contributing R Packages
