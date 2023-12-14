@@ -15,20 +15,20 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: December 01, 2023
+date: December 13, 2023
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac7ee45499.yaml
-  d109e98058cd5ccf7ad39dcb6b0899eb: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac5ff97749.yaml
-  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac98734fa.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac1cc35adb.yaml
-  80ba2804df5f1781b1e6fc147e07e3b3: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac3fe1bc3.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac5f7d19bd.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac348528c4.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpEbkPhI/file34ac12b52ecb.yaml
+  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file134819532d39.yaml
+  d109e98058cd5ccf7ad39dcb6b0899eb: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file13483cf75226.yaml
+  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file13485be369fb.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file1348533e2994.yaml
+  80ba2804df5f1781b1e6fc147e07e3b3: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file13486a925fa6.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file134867d2ca2.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file134873a971dc.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpMhMT2b/file13485dfd3bec.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -70,6 +70,8 @@ __University of Illinois at Urbana-Champaign__ Assistant Professor (School of In
 __University of Illinois at Urbana-Champaign__ Faculty Affiliate (National Center for Supercomputing Applications)
 </p><p>`Sep. 2021 - Present`
 __University of Illinois at Urbana-Champaign__ Faculty Affiliate (Illinois Informatics Institute)
+</p><p>`Dec. 2023 - Present`
+__University of Illinois at Urbana-Champaign__ Faculty Affiliate (Beckman Institute for Advanced Science and Technology)
 </p><p>`Jan. 2022 - Present`
 __University of Illinois at Urbana-Champaign__ Faculty Affiliate (IDEA (Inclusion, Diversity, Equity, and Access) Institute)
 </p><p>`Jul. 2023 - Present`
