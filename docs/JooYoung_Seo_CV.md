@@ -15,20 +15,20 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: February 16, 2024
+date: April 23, 2024
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d305c0c4baa.yaml
-  d109e98058cd5ccf7ad39dcb6b0899eb: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d3071e865e8.yaml
-  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d307a2626d8.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d3012bf19a7.yaml
-  80ba2804df5f1781b1e6fc147e07e3b3: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d3013c93021.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d305de0677e.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d3067cb2f7e.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpIzUjHe/file5d304f5d47b8.yaml
+  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d051754438.yaml
+  1352c89c0d7745c29a221d6dc881aa0d: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d026fb57c3.yaml
+  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d079663ef1.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d04de7737e.yaml
+  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d05b97426f.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d05768383d.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d03c5b1835.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d063f4631f.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -36,11 +36,11 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
-  @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
-  @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @moon2023navigating,
-  @lee2024identify, @seo2024maidr, @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023,
-  @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create,
-  @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
+  @seoMAIDR2024, @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart,
+  @choi2019trends, @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @lee2024identify,
+  @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023, @mccallen2023data,
+  @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create, @R-edmdown,
+  @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
 
 ---
 
@@ -66,10 +66,12 @@ __Seoul, South Korea__ Double B.A. in Education, English Literature (Sungkyunkwa
 
 <p>`Sep. 2021 - Present`
 __University of Illinois at Urbana-Champaign__ Assistant Professor (School of Information Sciences)
-</p><p>`Dec. 2021 - Present`
-__University of Illinois at Urbana-Champaign__ Faculty Affiliate (National Center for Supercomputing Applications)
+</p><p>`Apr. 2024 - Present`
+__University of Illinois at Urbana-Champaign__ Faculty Affiliate (Department of Computer Science)
 </p><p>`Sep. 2021 - Present`
 __University of Illinois at Urbana-Champaign__ Faculty Affiliate (Illinois Informatics Institute)
+</p><p>`Dec. 2021 - Present`
+__University of Illinois at Urbana-Champaign__ Faculty Affiliate (National Center for Supercomputing Applications)
 </p><p>`Dec. 2023 - Present`
 __University of Illinois at Urbana-Champaign__ Faculty Affiliate (Beckman Institute for Advanced Science and Technology)
 </p><p>`Jan. 2022 - Present`
@@ -151,7 +153,7 @@ vroom::vroom("data/grant.csv") %>%
 ## Papers in Refereed Conference Proceedings
 
 
-::: {#refs-d109e98058cd5ccf7ad39dcb6b0899eb}
+::: {#refs-1352c89c0d7745c29a221d6dc881aa0d}
 :::
 
 ## Book Chapters
@@ -172,7 +174,7 @@ vroom::vroom("data/grant.csv") %>%
 ## Working Papers under Revision or Review
 
 
-::: {#refs-80ba2804df5f1781b1e6fc147e07e3b3}
+::: {#refs-d23428c868f73b87bd0f2f5ed4acdc1e}
 :::
 
 <!--chapter:end:healthcare.Rmd-->
