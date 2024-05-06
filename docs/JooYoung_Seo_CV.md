@@ -15,20 +15,20 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: April 23, 2024
+date: May 06, 2024
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d051754438.yaml
-  1352c89c0d7745c29a221d6dc881aa0d: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d026fb57c3.yaml
-  20571be9e60cca0b4f6994e8763d6b1d: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d079663ef1.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d04de7737e.yaml
-  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d05b97426f.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d05768383d.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d03c5b1835.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmp65afD5/file78d063f4631f.yaml
+  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c084d116a39.yaml
+  052caf466b36d3e9dc85d5d20ebd0ad9: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c087a105859.yaml
+  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c085e571a50.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c0841f42f46.yaml
+  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c081b7453e6.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c084b542006.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c082bb8278a.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c08485f2285.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -36,11 +36,11 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
-  @seoMAIDR2024, @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart,
-  @choi2019trends, @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @lee2024identify,
-  @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023, @mccallen2023data,
-  @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create, @R-edmdown,
-  @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
+  @seoMAIDR2024, @designingbronseo2024, @SeoDogucu2023, @choi2018effects, @choi2019exploring,
+  @choi2019heart, @choi2019trends, @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328,
+  @lee2024identify, @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023,
+  @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create,
+  @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
 
 ---
 
@@ -153,13 +153,13 @@ vroom::vroom("data/grant.csv") %>%
 ## Papers in Refereed Conference Proceedings
 
 
-::: {#refs-1352c89c0d7745c29a221d6dc881aa0d}
+::: {#refs-052caf466b36d3e9dc85d5d20ebd0ad9}
 :::
 
 ## Book Chapters
 
 
-::: {#refs-20571be9e60cca0b4f6994e8763d6b1d}
+::: {#refs-06a43cf8d0163263410720e1e6ecf8e3}
 :::
 
 <!--chapter:end:publication.Rmd-->
@@ -181,6 +181,8 @@ vroom::vroom("data/grant.csv") %>%
 
 # Conference Presentations and Invited Talks
 
+
+Seo, J. (2024, March). *Unseen Insights: Empowering Autonomous Data Science by, with, and for Blind People*. Invited talk at the UC Irvine Donald Bren School of Information & Computer Sciences, Irvine, CA.
 
 Seo, J. (2023, November). *Insight Over Eyesight: My Journey as a Blind Data Scientist*. Invited talk at the Chicago Lighthouse Career Fair, Chicago, IL (virtual).
 
