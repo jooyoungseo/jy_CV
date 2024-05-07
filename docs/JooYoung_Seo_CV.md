@@ -21,19 +21,19 @@ header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  46020d03b7b38fe908a80a9add8e9ee0: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c084d116a39.yaml
-  052caf466b36d3e9dc85d5d20ebd0ad9: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c087a105859.yaml
-  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c085e571a50.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c0841f42f46.yaml
-  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c081b7453e6.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c084b542006.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c082bb8278a.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmp25ToK4/file1c08485f2285.yaml
+  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c425f5593.yaml
+  052caf466b36d3e9dc85d5d20ebd0ad9: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c54a2b05.yaml
+  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c594c7278.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c14555fad.yaml
+  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c4e9f1c80.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c5e376661.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c2bb92008.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c445a2b65.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
-  @konecki2017role, @seo2017embracing, @seo2018accessibility, @seo2018making, @seo2019discovering,
-  @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
+  @choiConversationalAgentsMHealth2024, @konecki2017role, @seo2017embracing, @seo2018accessibility,
+  @seo2018making, @seo2019discovering, @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
   @seoMAIDR2024, @designingbronseo2024, @SeoDogucu2023, @choi2018effects, @choi2019exploring,
@@ -147,7 +147,7 @@ vroom::vroom("data/grant.csv") %>%
 ## Refereed Journal Papers
 
 
-::: {#refs-46020d03b7b38fe908a80a9add8e9ee0}
+::: {#refs-d6b059466fc312a74a014e8d2d46e645}
 :::
 
 ## Papers in Refereed Conference Proceedings
