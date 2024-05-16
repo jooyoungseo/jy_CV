@@ -15,20 +15,20 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: May 06, 2024
+date: May 16, 2024
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c425f5593.yaml
-  052caf466b36d3e9dc85d5d20ebd0ad9: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c54a2b05.yaml
-  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c594c7278.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c14555fad.yaml
-  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c4e9f1c80.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c5e376661.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c2bb92008.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpUxTfQt/file5d8c445a2b65.yaml
+  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40747b1720b.yaml
+  aa6f5b78f17e3e5264e033fba6d4c62f: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407438c85f72.yaml
+  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407437b31450.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40741e86382a.yaml
+  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407449735efd.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407447313233.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file4074274315cf.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40747d7c2deb.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -36,11 +36,12 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @seo2018making, @seo2019discovering, @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
-  @seoMAIDR2024, @designingbronseo2024, @SeoDogucu2023, @choi2018effects, @choi2019exploring,
-  @choi2019heart, @choi2019trends, @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328,
-  @lee2024identify, @heckelInformationSciencesProfessora, @katsnelsonTheseToolsHelp2023,
-  @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption, @Iannone_gt_Easily_Create,
-  @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender, @R-islsdown'
+  @seoMAIDRMakingStatistical2024, @designingbronseo2024, @leeIdentifyAdaptPersist2024,
+  @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
+  @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @lee2024identify, @heckelInformationSciencesProfessora,
+  @katsnelsonTheseToolsHelp2023, @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption,
+  @Iannone_gt_Easily_Create, @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender,
+  @R-islsdown'
 
 ---
 
@@ -153,7 +154,7 @@ vroom::vroom("data/grant.csv") %>%
 ## Papers in Refereed Conference Proceedings
 
 
-::: {#refs-052caf466b36d3e9dc85d5d20ebd0ad9}
+::: {#refs-aa6f5b78f17e3e5264e033fba6d4c62f}
 :::
 
 ## Book Chapters
