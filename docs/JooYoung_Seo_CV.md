@@ -21,14 +21,13 @@ header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40747b1720b.yaml
-  aa6f5b78f17e3e5264e033fba6d4c62f: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407438c85f72.yaml
-  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407437b31450.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40741e86382a.yaml
-  d23428c868f73b87bd0f2f5ed4acdc1e: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407449735efd.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file407447313233.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file4074274315cf.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/Rtmpu8cup4/file40747d7c2deb.yaml
+  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c165b106c.yaml
+  aa6f5b78f17e3e5264e033fba6d4c62f: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453cd5941cb.yaml
+  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c76093a84.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c3080da9.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c7d803541.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c68f022ee.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpErc3bf/file453c388a43cd.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -38,7 +37,7 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
   @seoMAIDRMakingStatistical2024, @designingbronseo2024, @leeIdentifyAdaptPersist2024,
   @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
-  @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @lee2024identify, @heckelInformationSciencesProfessora,
+  @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @heckelInformationSciencesProfessora,
   @katsnelsonTheseToolsHelp2023, @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption,
   @Iannone_gt_Easily_Create, @R-edmdown, @R-ezviewr, @R-jladown, @R-tactileR, @webrender,
   @R-islsdown'
@@ -172,11 +171,11 @@ vroom::vroom("data/grant.csv") %>%
 ::: {#refs-d735fc8e424a60effc95b6b86f680502}
 :::
 
-## Working Papers under Revision or Review
+<!-- ## Working Papers under Revision or Review -->
 
-
-::: {#refs-d23428c868f73b87bd0f2f5ed4acdc1e}
-:::
+<!-- ```{r} -->
+<!-- bibliography_entries("bib/working_paper.bib") -->
+<!-- ``` -->
 
 <!--chapter:end:healthcare.Rmd-->
 
