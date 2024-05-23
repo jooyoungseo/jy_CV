@@ -15,19 +15,19 @@ github: jooyoungseo
 linkedin: jooyoungseo
 aboutme: |
   I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: May 21, 2024
+date: May 23, 2024
 csl: csl/apa7-cv-jy-edition.csl
 header-includes: \usepackage{xurl}
 knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV",
   output_format = "all", envir = globalenv(), ...), browseURL)})
 bibliography:
-  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a02f711aa0.yaml
-  6f9f665fcc3712b756e6d2676940109e: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a02a8a7ebf.yaml
-  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a0202ad81.yaml
-  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a062885214.yaml
-  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a0310a2114.yaml
-  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a02b5af51.yaml
-  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpWsX0Pn/file43a07abc45d3.yaml
+  d6b059466fc312a74a014e8d2d46e645: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e8854436e90.yaml
+  18084f58505ae6ae48984291be07c5a5: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e882c4dea.yaml
+  06a43cf8d0163263410720e1e6ecf8e3: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e8872763324.yaml
+  d735fc8e424a60effc95b6b86f680502: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e883d921425.yaml
+  37f5ad1f1850196509ec80c98fd22097: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e8843075b0.yaml
+  e4f6fe834f2d1b4cdb55cfea3d65ab90: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e8823bf1397.yaml
+  2061fa253ba446d2f8d9d3810e4746e6: C:/Users/jseo1005/AppData/Local/Temp/RtmpMT7OdT/file5e882524692c.yaml
 nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo2022csun,
   @seoScopingReviewThree2022, @seoSCAFFOLDingAllAbilities2021a, @seoTeachingVisualAccessibility2023,
   @moonLearningAnalyticsSeamless2023a, @leePersonalHealthData2023, @moonRevisitingMultimediaLearning2023,
@@ -35,7 +35,7 @@ nocite: '@seo2019arow, @seo2019maker, @doi:10.1080/09286586.2020.1863993, @seo20
   @seo2018making, @seo2019discovering, @seo2020coding, @lee2021collabally, @leeCollabAllyAccessibleCollaboration2022a,
   @huh2022duoethnographic, @teachingvisualaccessibility2022, @289508, @289496, @kimTrendCollaborationSTEM2023a,
   @parkExploringOnlineCommunity2023, @seoCodingNonVisuallyVisual2023, @seoMAIDRMultimodalAccess2023,
-  @seoMAIDRMakingStatistical2024, @designingbronseo2024, @leeIdentifyAdaptPersist2024,
+  @seoMAIDRMakingStatistical2024, @10.2312:eved.20241053, @leeIdentifyAdaptPersist2024,
   @SeoDogucu2023, @choi2018effects, @choi2019exploring, @choi2019heart, @choi2019trends,
   @doi:10.1080/01612840.2019.1705944, @doi:10.1111/nuf.12328, @heckelInformationSciencesProfessora,
   @katsnelsonTheseToolsHelp2023, @mccallen2023data, @R-ezpickr, @R-mboxr, @R-youtubecaption,
@@ -153,7 +153,7 @@ vroom::vroom("data/grant.csv") %>%
 ## Papers in Refereed Conference Proceedings
 
 
-::: {#refs-6f9f665fcc3712b756e6d2676940109e}
+::: {#refs-18084f58505ae6ae48984291be07c5a5}
 :::
 
 ## Book Chapters
