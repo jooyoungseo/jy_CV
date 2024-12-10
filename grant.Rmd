@@ -7,6 +7,11 @@ vroom::vroom("data/grant.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
+## Submitted Grants
+
+- "Development of an AI-Powered Multimodal Cognitive Assessment System for Blind and Low-Vision Individuals," Co-I, National Institutes on Disability, Independent Living, and Rehabilitation Research (NIDILRR), HHS-2025-ACL-NIDILRR-IFDV-0105, $699,559, 2025-2029 (submitted). PI: Choi, S.; Co-Is: Seo, J. and Rizzo, JR.
+
+
 ## Awarded Grants
 
 - "Collaborative Research: An AudioTactile Data System for Blind or Low Vision Faculty, Staff, Postdocs, and Graduate Students in Chemistry, Math, Computer and Information Sciences," PI (at UIUC), National Science Foundation (NSF Grant Award #2348166),  Workplace Equity for Persons with Disabilities in STEM and STEM Education (nsf23593), $459,000 (for UIUC) out of $1,200,159 total, August 2024 - July 2028 (ongoing).
