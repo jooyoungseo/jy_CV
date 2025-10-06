@@ -7,18 +7,15 @@ vroom::vroom("data/grant.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-## Submitted Grants
+<!-- ## Submitted Grants -->
 
-- "Development of an AI-Powered Multimodal Cognitive Assessment System for Blind and Low-Vision Individuals," Co-I, National Institutes on Disability, Independent Living, and Rehabilitation Research (NIDILRR), HHS-2025-ACL-NIDILRR-IFDV-0105, $699,559, 2025-2029 (submitted). PI: Choi, S.; Co-Is: Seo, J. and Rizzo, JR.
-
-
-## Awarded Grants
+<!-- ## Awarded Grants -->
 
 - "Collaborative Research: An AudioTactile Data System for Blind or Low Vision Faculty, Staff, Postdocs, and Graduate Students in Chemistry, Math, Computer and Information Sciences," PI (at UIUC), National Science Foundation (NSF Grant Award #2348166),  Workplace Equity for Persons with Disabilities in STEM and STEM Education (nsf23593), $459,000 (for UIUC) out of $1,200,159 total, August 2024 - July 2028 (ongoing).
 
-- "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (early terminated on April 28th, 2025 affected by the President’s Executive Order 14238).
+- "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (early terminated on April 28 and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
 
-- "Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces," PI, Institute of Museum and Library Services (IMLS) National Leadership Grants, Grant #LG-252360-OLS-22, $498,638, Aug 2022 - May 2025 (early terminated on April 8th, 2025 affected by the President’s Executive Order 14238).
+- "Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces," PI, Institute of Museum and Library Services (IMLS) National Leadership Grants, Grant #LG-252360-OLS-22, $498,638, Aug 2022 - May 2025 (early terminated on April 8th and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
 
 - "Inclusive Data Science: Fostering Accessibility and Reproducibility with Multimodal Learning Strategies," PI, Teach Access Faculty Grants, Tier 3, $5,000, May 2023 - May 2024 (completed).
 
@@ -37,6 +34,8 @@ vroom::vroom("data/grant.csv") %>%
 <!-- Human Factors and Ergonomics Society’s Diversity & Inclusion Seed Grant Program, $5,000 [Submitted], 2025-2026, Title: Making Medical Imaging Information Accessible for Blind and Low-Vision Individuals from Diverse and Underserved Backgrounds, Choi, S. (PI), Seo, J. (Co-PI)., Pitcher-Cooper, C. (Co-I). -->
 
 <!-- ## Unawarded Projects
+
+- "Development of an AI-Powered Multimodal Cognitive Assessment System for Blind and Low-Vision Individuals," Co-I, National Institutes on Disability, Independent Living, and Rehabilitation Research (NIDILRR), HHS-2025-ACL-NIDILRR-IFDV-0105, $699,559, 2025-2029 (submitted). PI: Choi, S.; Co-Is: Seo, J. and Rizzo, JR.
 
 - "Multimodal Data Representations Using Generative AI with, by, and for Blind and Low-Vision People," PI, Google Research: Award for Inclusion Research Program, $60,000, August 2023 - July 2024 (unawarded).
 
