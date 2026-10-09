@@ -7,21 +7,19 @@ vroom::vroom("data/grant.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-<!-- ## Submitted Grants -->
-
-<!-- ## Awarded Grants -->
+## Awarded Grants
 
 - "Collaborative Research: An AudioTactile Data System for Blind or Low Vision Faculty, Staff, Postdocs, and Graduate Students in Chemistry, Math, Computer and Information Sciences," PI (at UIUC), National Science Foundation (NSF Grant Award #2348166),  Workplace Equity for Persons with Disabilities in STEM and STEM Education (nsf23593), $459,000 (for UIUC) out of $1,200,159 total, August 2024 - July 2028 (ongoing).
 
-- "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2026 (early terminated on April 28 and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
+- "Beyond Visuals: Improving Accessibility of Data Curation and Multi-Modal Representations for People of all Abilities through Reproducible Workflows," PI, Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Program, Grant #RE-254891-OLS-23, $649,921, Aug 2023 - July 2027 (early terminated on April 28 and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
 
-- "Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces," PI, Institute of Museum and Library Services (IMLS) National Leadership Grants, Grant #LG-252360-OLS-22, $498,638, Aug 2022 - May 2025 (early terminated on April 8th and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
+- "Promoting Computational Thinking Skills for Blind and Visually Impaired Teens through Accessible Library Makerspaces," PI, Institute of Museum and Library Services (IMLS) National Leadership Grants, Grant #LG-252360-OLS-22, $498,638, Aug 2022 - Mar 2026 (early terminated on April 8th and reinstated on May 21, 2025 affected by the President’s Executive Order 14238).
 
 - "Inclusive Data Science: Fostering Accessibility and Reproducibility with Multimodal Learning Strategies," PI, Teach Access Faculty Grants, Tier 3, $5,000, May 2023 - May 2024 (completed).
 
 - "Improving Accessible Reproducibility for Data Science Publishing System," PI, Posit PBC (unrestricted gift), $54,327, May 2022 - Present (ongoing).
 
-- "Co-designing an Alexa-Based Conversational mHealth System with Visually Impaired People to Promote Physical Activities," Co-PI, Center on Health, Aging, and Disability’s (CHAD) Pilot Grant Program at the University of Illinois at Urbana-Champaign, $29,866, 2023-2024 (ongoing).
+- "Co-designing an Alexa-Based Conversational mHealth System with Visually Impaired People to Promote Physical Activities," Co-PI, Center on Health, Aging, and Disability’s (CHAD) Pilot Grant Program at the University of Illinois Urbana-Champaign, $29,866, 2023-2024 (completed).
 
 - "Category I: Crossing the Divide Between Today's Practice and Tomorrow's Science," Senior Personnel, National Science Foundation (NSF), Grant #2005572, $10,000,000.00, Oct 2021 - Sept 30, 2026 (.5 FTE academic year) (ongoing).
 
@@ -29,7 +27,16 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Data Accessibilization: Making Data Science Education Accessible for Blind Learners," PI, Wallace Foundation, Emerging Scholars Program, International Society of the Learning Sciences, $10,000, Jan 2022 - Dec 2022 (completed).
 
-<!-- ## Under-Review Grants -->
+## Proposals Under Review
+
+<!-- Each entry gives its submission date. When the sponsor decides, move the entry up to
+Awarded Grants if funded, or delete it if declined. -->
+
+- "CAREER: Perceptually-Grounded Multimodal AI for Non-Visual Data Reasoning," PI, National Science Foundation (NSF), Faculty Early Career Development Program (CAREER), $699,426 requested over five years, submitted July 2026.
+
+- "Collaborative Research: HCC: Conversational Interaction for Non-Visual Chart Sensemaking: Modeling Inquiries, Aligning Models, and Empowering Verification," PI (at UIUC), National Science Foundation (NSF), Future Computing Research (Future CoRe, NSF 25-543), $450,000 requested (for UIUC), with Boston College (lead) and the Massachusetts Institute of Technology, submitted September 2026.
+
+<!-- Earlier entry, kept commented out: -->
 
 <!-- Human Factors and Ergonomics Society’s Diversity & Inclusion Seed Grant Program, $5,000 [Submitted], 2025-2026, Title: Making Medical Imaging Information Accessible for Blind and Low-Vision Individuals from Diverse and Underserved Backgrounds, Choi, S. (PI), Seo, J. (Co-PI)., Pitcher-Cooper, C. (Co-I). -->
 

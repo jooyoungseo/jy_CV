@@ -1,34 +1,33 @@
 # Publications
 
-* The following notations only apply to September 2021 and after.
-
-`#`: derived from the candidate’s thesis.
-
-`*`: publication that has undergone stringent editorial review by peers.
-
-`+`: publication that was invited and carries special prestige and recognition.
-
-<!-- # Selected Publications -->
-<!--  -->
-<!-- ::: {#refs_selected} -->
-<!-- ::: -->
+† Student I advised, supervised, or mentored.
 
 ## Refereed Journal Papers
 
 ```{r}
 vitae::bibliography_entries("bib/journal.bib")
-# arrange(desc(row_number())) %>%
-# relocate(annote)
 ```
 
-## Papers in Refereed Conference Proceedings
+## Full Papers in Refereed Conference Proceedings
 
 ```{r}
 bibliography_entries("bib/proceedings.bib")
+```
+
+## Short Papers, Posters, Demos, and Abstracts
+
+```{r}
+bibliography_entries("bib/short_papers.bib")
 ```
 
 ## Book Chapters
 
 ```{r}
 bibliography_entries("bib/book.bib")
+```
+
+## Refereed Conference Presentations
+
+```{r}
+bibliography_entries("bib/presentations.bib")
 ```

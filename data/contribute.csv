@@ -1,4 +1,8 @@
 ﻿what,when,with,where,why
+quarto-webr: Quarto Extension for WebR,2023,"Balamuta, J.",https://github.com/coatless/quarto-webr,Improved accessibility by replacing the CodeMirror editor with the Monaco code editor (coatless/quarto-webr #16).
+Quarto: Visual Studio Code Extension,2023,Posit PBC,https://github.com/quarto-dev/quarto,Added diagram executable cell engines to the Quarto VS Code extension (quarto-dev/quarto #92).
+vscode-R: R Extension for Visual Studio Code,2022,REditorSupport,https://github.com/REditorSupport/vscode-R,"Contributed R and R Markdown snippets (vscode-R #1009, #1012, #1084, and #1085)."
+rticles: Article Formats for R Markdown,2021,"Allaire, J., Xie, Y., et al.",https://cran.r-project.org/web/packages/rticles/,Added the reproducible Journal of Educational Data Mining article template (rticles #251; released in v0.21).
 shiny: Web Application Framework for R,2020,"Chang, W., Cheng, J., Allaire, J., Xie, Y., & McPherson, J.",https://cran.r-project.org/web/packages/shiny/,Contributed to improving keyboard and TTS accessibility for input widgets.
 vitae: Curriculum Vitae for R Markdown,2020,"O'Hara-Wild, M., & Hyndman, R.",https://cran.r-project.org/web/packages/vitae/,Contributed to enabling LaTeX engine customization.
 ,,,,Contributed to displaying multiple bibliographies based on lua filter.

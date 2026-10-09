@@ -14,13 +14,59 @@ email: "jseo1005@illinois.edu"
 twitter: seo_jooyoung
 github: jooyoungseo
 linkedin: jooyoungseo
-aboutme: |
-  I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa7-cv-jy-edition.csl"
 header-includes:
   # allow URLs to break at any character
   - \usepackage{xurl}
+  # embed the source Unicode as /ActualText so hyphens and small caps extract correctly
+  # (xdvipdfmx maps the shared hyphen glyph of Source Sans Pro/Roboto to U+2011 otherwise)
+  - \XeTeXgenerateactualtext=1
+  # Page-break rules (2026-10-08). The class's own \section and \subsection allow a page break
+  # right after the heading, and its pages take any break TeX finds cheapest.
+  #  - a heading needs room for a few lines below it, and no break may follow it directly;
+  #  - \keepwithnext does the same for a bold label that introduces a list (used in the .Rmd files);
+  #  - a line stretches rather than run past the right margin (long tokens such as posit::conf(2025));
+  #  - no single line of a paragraph or list item alone at the top or bottom of a page
+  #    (the e-TeX arrays are used because list items reset the plain \clubpenalty).
+  - |
+    ```{=latex}
+    \usepackage{needspace}
+    \makeatletter
+    \let\acvSectionOrig\section
+    \renewcommand{\section}[1]{\Needspace{8\baselineskip}\acvSectionOrig{#1}\par\nobreak\@afterheading}
+    \let\acvSubsectionOrig\subsection
+    % a subsection that follows a section heading directly stays with it
+    \renewcommand{\subsection}[1]{\if@nobreak\else\Needspace{4\baselineskip}\fi\acvSubsectionOrig{#1}\par\nobreak\@afterheading}
+    \newcommand{\keepwithnext}{\par\nobreak\@afterheading}
+    \makeatother
+    % Word spaces (2026-10-08). TeX sets a space as a gap, not a character, so a PDF reader has to
+    % guess where the words end. The body font's space is 0.2 em and TeX may shrink it by a third;
+    % at that width Chrome/Edge (PDFium) and MuPDF read no space and the words run together for a
+    % screen reader, search, or copy and paste. Cap the shrink so a gap stays at 0.18 em or wider.
+    \AddToHook{selectfont}{\ifdim\fontdimen4\font>0.1\fontdimen2\font \fontdimen4\font=0.1\fontdimen2\font \fi}
+    % Entry text (Education, Professional Appointments), 2026-10-09. The class sets it at 8 to 9 pt in
+    % a light weight, next to 11 pt lists everywhere else: on page 1 the two looked like different
+    % templates, and the degree and role lines were the smallest text on the page. Entries now use
+    % the size, weight, colour, and list indent of the other lists.
+    \renewcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+    \renewcommand*{\entrypositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{graytext} #1}}
+    \renewcommand*{\entrydatestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+    \renewcommand*{\entrylocationstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+    \renewcommand*{\descriptionstyle}[1]{{\normalsize\bodyfont\upshape\color{graytext} #1}}
+    \renewenvironment{cvitems}{%
+      \vspace{-4.0mm}
+      \begin{justify}
+      \begin{itemize}[nosep, noitemsep]
+        \setlength{\parskip}{0pt}
+    }{%
+      \end{itemize}
+      \end{justify}
+      \vspace{2.0mm}
+    }
+    \setlength{\emergencystretch}{3em}
+    \AtBeginDocument{\widowpenalties 1 10000 \clubpenalties 1 10000 \widowpenalty=10000 \clubpenalty=10000}
+    ```
   # - \usepackage{fancyhdr}
   # - \pagestyle{fancy}
   # - \fancyhf{}

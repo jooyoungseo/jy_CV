@@ -5,18 +5,110 @@ vroom::vroom("data/teaching-experience.csv") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ``` -->
 
-* IS 407: Introduction to Data Science (spring 2022-present).
+## Courses Taught (University of Illinois Urbana-Champaign)
 
-* IS 569: Internship (spring 2022). *Advised Ankita Khiratkar (MS IM)*.
+* IS 204: Research Design for Information Sciences (online, 3 credit hours): Spring 2026.
 
-* IS 589: Independent Study (spring 2022). *Advised Chetna Beri (MS IM)*.
+* IS 568: Accessibility in HCI Seminar (graduate seminar, 4 credit hours; newly developed): Spring 2025.
 
-* INFO 399: Individual Study (spring 2022). *Advised Leo Zhang (CS undergrad --> Currently, Master's student at UCLA Data Science dept)*.
+* IS 407: Introduction to Data Science (4 credit hours): Spring 2022 (in person); Fall 2022, Spring 2023, Fall 2023, Spring 2024, and Fall 2024 (online).
 
-* IS 389: Independent Study (spring 2022). *Advised Miso Kim (BS IS)*.
+* IS 226: Introduction to Human-Computer Interaction (online, 3 credit hours; co-taught with Dr. Yang Wang): Fall 2021.
 
-* IS 226: Introduction to Human-Computer Interaction (fall 2021). *Co-teaching with Dr. Yang Wang*.
+* Teacher Ranked as Excellent by Their Students, Center for Innovation in Teaching and Learning: Spring 2022, Spring 2024, Fall 2024, and Spring 2025.
 
-* Served as an annual review committee member for iSchool Ph.d. student Smirity Kaushik (advisor Dr. Yang Wang) (spring 2022).
+## Curriculum Development
 
-* Served as a field exam committee member for iSchool Ph.D. candidate Jaihyun Park (advisor Dr. Ryan Cordell) (spring 2022).
+* Designed and launched IS 568: Accessibility in HCI Seminar, a new graduate course (Spring 2025).
+
+* Developed accessibility modules for IS 226: Introduction to Human-Computer Interaction (Fall 2021) and a GitHub-organization-based workflow for IS 407: Introduction to Data Science (Spring 2022).
+
+## Professional Development Teaching
+
+* Non-Visual Data Science Course for Blind Individuals, Smith-Kettlewell Eye Research Institute (Summer 2023, 2024, and 2025): organized and delivered professional development on non-visual data science for blind individuals: https://www.ski.org/projects/empowering-data-vision-data-science-course-blind-individuals
+
+## PhD Advising
+
+**Current advisees**
+\keepwithnext
+
+* Sanchita Kamath (Information Sciences), Fall 2023 - present; passed the field exam in Spring 2025.
+
+* Aziz Zeidieh (Informatics), Fall 2023 - present; passed the field exam in Spring 2025.
+
+* Omar Khan (Computer Science), Fall 2024 - present; passed the qualifying exam in Spring 2025.
+
+* Weijun Zhang (Information Sciences), Fall 2025 - present.
+
+**PhD examination committees (non-advisees)**
+\keepwithnext
+
+* Alice Shinhye Cha (Information Sciences), field exam committee, Spring 2026 - present (advisor: Kyungwon Koh).
+
+* Seung Heon Lee (Computer Science), qualifying exam committee, Fall 2025 (advisor: Koustuv Saha).
+
+* Yilin Xia (Information Sciences), preliminary exam committee, Fall 2025 - present (advisors: Bertram Ludäscher and Matthew Turk).
+
+* Christopher Perdriau (Computer Science), preliminary and final defense committees, Spring 2025 - present (advisor: Colleen Lewis).
+
+* HaeJin Lee (Information Sciences), field exam, preliminary, and final defense committees, Spring 2024 - present (advisor: Nigel Bosch).
+
+* Jaihyun Park (Information Sciences; now Assistant Professor at Indiana University Indianapolis), field exam through final defense, Spring 2022 - Spring 2024 (advisor: Ryan Cordell).
+
+**Other supervised PhD researchers (research assistants)**
+\keepwithnext
+
+* Si Chen (Information Sciences), research assistant, Spring 2023 - Summer 2024.
+
+* Yilin Xia (Information Sciences), research assistant, Summer 2023.
+
+* Eugene Cox (Informatics), research assistant, Summer 2023 - Summer 2024.
+
+## Master's and Undergraduate Research Supervision
+
+**Master's research assistants**
+\keepwithnext
+
+* Saairam Venkatesh (MS CS; now Software Engineer at Amazon), research assistant, Spring 2024 and Spring 2025.
+
+* Daksh Pokar (MS CS; now Software Engineer at Meta), research assistant, Fall 2024 - Spring 2025.
+
+* Anurag Choudhary (MS CS), research assistant, Fall 2024 - Spring 2025.
+
+* Krishna Anandan Ganesan (MS CS), research assistant, Fall 2024.
+
+* Pritham Sriram Govindaraj (MS CS), graduate assistant for the NSF-funded Delta HPC accessibility project at NCSA, Spring 2023 - Summer 2024.
+
+* Sristi Shivanand Ingleshwar (MS CS), research assistant on the CHAD pilot grant, Fall 2023.
+
+* Krishna Jayachandran (M.Arch), research assistant on the IMLS project, Fall 2022.
+
+* Yash Prakash Bajaj (MS Statistics), graduate assistant for the NSF-funded Delta HPC accessibility project at NCSA, Spring - Summer 2022.
+
+**Undergraduate researchers**
+\keepwithnext
+
+* Jack Bai (BS Computer Engineering; now UIUC MS CS student), NCSA SPIN (Students Pushing INnovation) program, Summer 2022.
+
+* Yu Jun Yam (BS CS), research internship (Summer 2022) and undergraduate hourly researcher (Fall 2022 - Spring 2023).
+
+**Independent studies and research practica supervised**
+\keepwithnext
+
+* PhD students: Yilin Xia, Jaihyun Park, Si Chen, HaeJin Lee, Jason Situ, Omar Khan, Aziz Zeidieh, Sanchita Kamath, Alice Shinhye Cha, and Olivia Wang (2022 - 2026).
+
+* Master's students: Chetna Beri, Ankita Khiratkar, Aastha Jain, and Rebekah Chuang (MSIM); Nathaniel Knize (MSLIS); Elle Olivia Dietz (M.Arch); Anurag Choudhary, Daksh Pokar, Aarthy Kesavan Padmanaban, Saairam Venkatesh, Bhoomika Narasimhulu, Akash Elumalai, Niranjan Kalaiselvan, and Soundarya Pradhan (MS CS) (2022 - 2025).
+
+* Undergraduate students: Miso Kim, Khushi Jain, Riya Shah, Harish Ravisankar, Sky Liu, and Jae Young Lee (BSIS); Wenhao (Leo) Zhang, Yu Jun Yam, and Minhyung Lee (BS CS) (2022 - 2023).
+
+## External Mentoring
+
+* Kenny Ge (BS CS, Carnegie Mellon University; now Research Intern Fellow at Anthropic), accessibility research mentoring, Fall 2023 - present.
+
+* Mina Huh (BS CS, KAIST; now EECS PhD student at UC Berkeley), accessibility research mentoring, Fall 2021 - Summer 2022; led to a CSCL 2022 paper (Huh & Seo).
+
+* Dhruv Sethi (BTech CS, Manipal Academy of Higher Education, Dubai), internship and professional training, Spring 2024.
+
+* Krishna Jayachandran and Sujithra Rajan (UIUC MS CS graduates), voluntary internships in accessible computing, Spring 2025.
+
+* Ji Yeon (Ariel) Han (PhD student, UC Irvine Informatics) and Jullia Lim (PhD candidate, Teachers College, Columbia University), Korean Edutech/Learning Sciences Researcher Network (KELS) mentoring program, Spring 2023 and Fall 2024.

@@ -1,4 +1,4 @@
-# Professional Appointment
+# Professional Appointments
 
 ```{r appointment}
 vroom::vroom("data/appointment.csv") %>%

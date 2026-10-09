@@ -1,10 +1,24 @@
+Choi, S., & Seo, J. (2025, October). *Advancing Health Equity for Blind and Low-Vision People Through Universal Design in Healthcare*. Presented at the 14th Annual Minority Health Conference.
+
+Seo, J. (2025, September). *maidr: Empowering Accessible, Multimodal Data Visualizations*. Talk presented at posit::conf(2025), Atlanta, GA: https://www.youtube.com/watch?v=QR7mdgM8Hf0.
+
+Seo, J. (2024, December). *MAIDR Demo*. Invited demonstration for the MathWorks Accessibility Customer Advisory Board, virtual.
+
+Seo, J. (2024, December). *Making Data Visualization Accessible*. Invited talk at the Research IT Group, University of Illinois Urbana-Champaign, Champaign, IL (virtual).
+
+Seo, J. (2024, April). Invited guest speaker at EPSY 203: Social Issues Group Dialogues (Section AD7: Disability Social Justice), University of Illinois Urbana-Champaign, Champaign, IL.
+
+Invited featured demo (2024, March): *GitHub Copilot Vision Accessibility*. "Building Inclusive Experiences with GitHub Copilot," Microsoft Accessibility Summit: https://youtu.be/INhRIdgGE4w?feature=shared&t=259
+
+Seo, J. (2024, March). Invited keynote speaker at the 16th Annual College of Education Graduate Student Conference, "Education in the 21st Century: Designing a More Inclusive Future," University of Illinois Urbana-Champaign, Champaign, IL.
+
 Seo, J. (2024, March). *Unseen Insights: Empowering Autonomous Data Science by, with, and for Blind People*. Invited talk at the UC Irvine Donald Bren School of Information & Computer Sciences, Irvine, CA.
 
 Seo, J. (2023, November). *Insight Over Eyesight: My Journey as a Blind Data Scientist*. Invited talk at the Chicago Lighthouse Career Fair, Chicago, IL (virtual).
 
 Seo, J. (2023, November). *Beyond Sight: Envisioning Data Science Through Multimodal Access*. Invited as a keynote speaker at the 2023 UIUC iSchool’s Research Showcase, Champaign, IL.
 
-Seo, J. (2023, November). *Understanding Multi-Modality of Blind People Towards Inclusive STEM Learning*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
+Seo, J. (2023, November). *Multimodal Data Representation for Inclusive Data Science Education*. Invited talk at the UIUC CI590 DELTA Seminar, Champaign, IL.
 
 Seo, J. (2023, July). *Screen Reader User Experience Deep Dive*. Invited talk at the Microsoft Visual Studio Code Team, virtual.
 

@@ -1,40 +1,60 @@
 # Software Developments and Publications
 
-## Data Science Packages in Comprehensive R Archive Network (CRAN)
+## Software Packages
 
-<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
-knitr::write_bib(c("ezpickr", "mboxr", "youtubecaption"), "bib/R_packages.bib")
-# R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
-# RefManageR:::print.BibEntry(R_package)
-#### vitae::bibliography_entries("bib/R_packages.bib")
-``` -->
+* Seo, J., & Kalaiselvan†, N. (2026). *maidr: Multimodal access and interactive data representation* (R package version 0.5.0) [Computer software]. https://CRAN.R-project.org/package=maidr. *Over 3K downloads*.
 
-```{r}
-bibliography_entries("bib/R_packages.bib")
-```
+* Seo, J., & Venkatesh†, S. (2024). *maidr: Multimodal access and interactive data representations* (Python package version 1.26.0) [Computer software]. https://pypi.org/project/maidr/. *Over 86K downloads*.
 
-\newpage
+* Seo, J. (2023). *maidr: Multimodal access and interactive data representation* (JavaScript package version 4.14.0) [Computer software]. https://www.npmjs.com/package/maidr. *Over 35K downloads*.
 
-## Open-Source Project on GitHub
+* Iannone, R., Cheng, J., Schloerke, B., Haughton, S., Hughes, E., Lauer, A., François, R., Seo, J., Brevoort, K., & Roy, O. (2026). *gt: Easily create presentation-ready display tables* (R package version 1.3.0) [Computer software]. https://CRAN.R-project.org/package=gt. *Over 7.9M downloads*.
 
-<!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
-# knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
-# github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
-# RefManageR:::print.BibEntry(github)
-#### vitae::bibliography_entries("bib/github.bib")
-``` -->
+* Seo, J., & Choi, S. (2020). *youtubecaption: Downloading YouTube subtitle transcription in a tidy tibble data frame* (R package) [Computer software]. https://CRAN.R-project.org/package=youtubecaption. *Over 18K downloads; archived on CRAN in 2023*.
 
-```{r}
-bibliography_entries("bib/github.bib")
-```
+* Seo, J., & Choi, S. (2019). *mboxr: Reading, extracting, and converting an mbox file into a tibble* (R package) [Computer software]. https://CRAN.R-project.org/package=mboxr. *Over 26K downloads; archived on CRAN in 2023*.
 
-## Officially Code_Contributing R Packages
+* Seo, J., & Choi, S. (2019). *ezpickr: Easy data import using GUI file picker and seamless communication between an Excel and R* (R package) [Computer software]. https://CRAN.R-project.org/package=ezpickr. *Over 35K downloads; archived on CRAN in 2022*.
 
-* [My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
+## Open-Source Projects on GitHub
 
-```{r contribute}
-# knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
-vroom::vroom("data/contribute.csv") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
+* The maidr ecosystem (the TypeScript, Python, and R packages above) is developed in the open under the (x)Ability Design Lab organization: https://github.com/xability
+
+* Seo, J. (2020). *edmdown: Writing a reproducible article for Journal of Educational Data Mining in R Markdown* (R package version 0.0.0.9000) [Computer software]. https://github.com/jooyoungseo/edmdown
+
+* Seo, J., Chan, T., Michaelis, J. E., & Rosenberg, J. M. (2020). *islsdown: Writing a reproducible conference paper for the International Society of the Learning Sciences annual meeting in R Markdown* (R package version 0.0.0.9000) [Computer software]. https://github.com/jooyoungseo/islsdown
+
+* Seo, J., & Rosenberg, J. M. (2020). *jladown: Writing a reproducible article for Journal of Learning Analytics in R Markdown* (R package version 0.0.0.9000) [Computer software]. https://github.com/jooyoungseo/jladown
+
+* Seo, J., & McCurry, S. (2019). *AROW: Accessible RMarkdown online writer* [Computer software]. https://github.com/ellvix/AROW
+
+* Seo, J. (2019). *ezviewr: View tidy data in preferable spreadsheet* (R package version 0.1.0) [Computer software]. https://github.com/jooyoungseo/ezviewr
+
+* Seo, J. (2019). *tactileR: Converting R graphics into a braille ready-to-print PDF* (R package version 0.1.0) [Computer software]. https://github.com/jooyoungseo/tactileR
+
+## Merged Code Contributions to Open-Source Projects
+
+[My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged into active open-source data science projects:
+\keepwithnext
+
+* Quarto, Visual Studio Code extension (Posit PBC, 2023): added diagram executable cell engines (quarto-dev/quarto #92).
+
+* quarto-webr, Quarto extension for WebR (2023): improved accessibility by replacing the CodeMirror editor with the Monaco code editor (coatless/quarto-webr #16).
+
+* vscode-R, R extension for Visual Studio Code (2022): contributed R and R Markdown snippets (vscode-R #1009, #1012, #1084, and #1085).
+
+* rticles, article formats for R Markdown (2021): added the reproducible Journal of Educational Data Mining article template (rticles #251; released in v0.21).
+
+* shiny, web application framework for R (2020): contributed to improving keyboard and TTS accessibility for input widgets.
+
+* vitae, curriculum vitae for R Markdown (2020): contributed to enabling LaTeX engine customization and to displaying multiple bibliographies based on a Lua filter.
+
+* rmarkdown, dynamic documents for R (2019): contributed to improving ioslides_presentation accessibility for screen reading software.
+
+* bookdown, authoring books and technical documents with R Markdown (2019): developed nine output-format functions (context_document2, github_document2, beamer_presentation2, and six others) that let R Markdown users cross-reference figures and tables.
+
+* distill, R Markdown format for scientific and technical writing (2019): improved screen reader accessibility for the navigation bar; contributed to displaying more metadata for journal article entries; added missing Google Scholar meta tags.
+
+* wordcountaddin, word counts and readability statistics in R Markdown documents (2019): contributed to the text_stats() function, which gives a word count and other statistics for selected text.
+
+* BrailleR, improved access for blind users (2019): contributed to the BRLThis() function, which lets blind R users convert a graph into a PDF ready for embossing in braille.

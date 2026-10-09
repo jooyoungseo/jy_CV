@@ -1,7 +1,35 @@
 # Service
 
-```{r service}
-vroom::vroom("data/service.csv") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
+## Professional Service
+
+* Review Panelist, National Science Foundation (NSF), Division of Computer and Network Systems (CISE/CNS), 2025.
+
+* AccessComputing Partner, NSF-funded AccessComputing Alliance, University of Washington, Feb. 2024 - Present: contributing to broadening participation of people with disabilities in computing through mentoring, curriculum sharing, and outreach.
+
+* Program Committee Member: ACM ASSETS 2024; International Conference on Quantitative Ethnography (ICQE) 2023; International Web for All Conference (W4A) 2022.
+
+* Accessibility Chair, 15th International Conference on Educational Data Mining (EDM), Oct. 2021 - Jul. 2022.
+
+* Conference Reviewer: ACM CHI (2020, 2021, 2022, 2023, 2025); ACM ASSETS (2023); ACM IDC (2026); AERA SIG-Learning Sciences (2023); EDM (2022); W4A (2022); the Network of Academic Programs in the Learning Sciences (NAPLeS) of the International Society of the Learning Sciences (2020); ICLS (2019); ICQE (2019).
+
+* Journal Reviewer: IEEE Computer Graphics and Applications (2025); IEEE Security & Privacy (2024); Information and Learning Sciences (2023); TechTrends, special issue on ethnography and learning design (2021).
+
+## Advisory Roles
+
+* Accessibility Customer Advisory Board Member, MathWorks, 2023 - Present: providing feedback on MATLAB accessibility features, generative AI integration, and assistive technology compatibility.
+
+* Accessibility Advisory Member and Co-Designer, Microsoft Visual Studio Code (VS Code) Accessibility Team, 2022 - Present: collaborating on screen reader support, terminal buffer, semantic audio cues, Copilot, and Jupyter Notebook accessibility.
+
+* Advisory Board Member, "Making is for Everyone: Learning within Library Makerspaces for Youth with Disabilities" (IMLS National Leadership Grant #LG-252323-OLS-22), 2022 - Present.
+
+* Accessibility Consultant (Faculty Affiliate and Senior Personnel), NSF-funded Delta GPU High-Performance Computing Project, National Center for Supercomputing Applications (NCSA), Fall 2022 - Present.
+
+## University Service (University of Illinois Urbana-Champaign)
+
+* Digital Accessibility and Excellence Steering Committee, Office of the Provost, Spring 2024 - Present (appointed by the University Provost).
+
+* Proposal Reviewer, Chancellor's Call to Research Program (full proposals), Fall 2024.
+
+* Panel Moderator, Disability Etiquette panel at the Access Illinois event, Spring 2023.
+
+* School of Information Sciences: Doctoral Studies Committee (Fall 2023 - Spring 2026); Search Committee for Tenure-Track Information Accessibility Faculty (Fall 2022 - Spring 2023); Data Science Task Force Committee (Fall 2022); Search Committee for Director/Assistant Dean, Diversity, Equity, Inclusion, and Accessibility (Apr. 2022 - Aug. 2022); Diversity Committee (Fall 2021 - Spring 2023).

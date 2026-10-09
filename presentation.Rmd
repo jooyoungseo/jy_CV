@@ -1,10 +1,9 @@
-# Conference Presentations and Invited Talks
+# Invited Talks and Presentations
 
-`r knitr::knit_child("data/poster_short.txt")`
+## Keynotes, Invited Talks, and Panels
 
-<!-- ## Invited Guest Lectures -->
-<!-- ```{r talk}
-vroom::vroom("data/talk.csv") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
-``` -->
+`r knitr::knit_child("data/talks_invited.txt")`
+
+## Guest Lectures
+
+`r knitr::knit_child("data/talks_guest_lectures.txt")`

@@ -1,7 +1,15 @@
 # Awards and Honors
 
-```{r award}
-vroom::vroom("data/award.csv") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
+* Center for Advanced Study (CAS) Beckman Fellow, University of Illinois Urbana-Champaign, 2026 - 2027.
+* Early Career Award, Institute of Museum and Library Services (IMLS), 2023 - 2026.
+* Teach Access Faculty Award, Teach Access, 2023.
+* Teachers Ranked as Excellent (four semesters), University of Illinois Urbana-Champaign, 2022 - 2025.
+* Best Paper Honorable Mention Award (top 5% of submissions), ACM CHI 2022.
+* Emerging Scholar, International Society of the Learning Sciences and the Wallace Foundation, 2021 - 2022.
+* Qualcomm Scholarship (Doctoral Consortium), ACM Richard Tapia Conference, 2020.
+* NextGen Leader, Disability:IN, 2020.
+* Best Doctoral Proposal Fellowship, First International Conference on Quantitative Ethnography, 2019.
+* Andrew V. Kozak Memorial Fellowship, PDK Educational Foundation, 2019.
+* Delta Gamma Golden Anchor Award, The Pennsylvania State University, 2015 and 2017.
+* Global Korean Government Scholarship, National Institute for International Education, 2014 - 2016.
+* Outstanding Academic Award, Hyomyoung Scholarship, 2014 - 2019.

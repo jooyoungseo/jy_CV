@@ -1,5 +1,7 @@
 # Media Coverage
 
-```{r}
-bibliography_entries("bib/media_coverage.bib")
-```
+* Katsnelson, A. (2023, March 6). These tools help visually impaired scientists read data and journals. *Nature, 615*(7951), 362–363. https://doi.org/10.1038/d41586-023-00645-6
+
+* Heckel, J. (2023, September 29). *Information sciences professor developing tool to make data visualizations accessible to blind researchers, students*. News Bureau University of Illinois Urbana-Champaign. https://news.illinois.edu/view/6367/107909242
+
+* McCallen, B. (2023, November 3). *Data visualization for the blind*. https://speakingoutfortheblind.weebly.com/list-of-episodes-and-show-news/for-more-information-episode-329-data-visualization-tool-for-the-blind
