@@ -21,7 +21,7 @@ vroom::vroom("data/grant.csv") %>%
 
 - "Co-designing an Alexa-Based Conversational mHealth System with Visually Impaired People to Promote Physical Activities," Co-PI, Center on Health, Aging, and Disability’s (CHAD) Pilot Grant Program at the University of Illinois Urbana-Champaign, $29,866, 2023-2024 (completed).
 
-- "Category I: Crossing the Divide Between Today's Practice and Tomorrow's Science," Senior Personnel, National Science Foundation (NSF), Grant #2005572, $10,000,000.00, Oct 2021 - Sept 30, 2026 (.5 FTE academic year) (ongoing).
+- "Category I: Crossing the Divide Between Today's Practice and Tomorrow's Science," Senior Personnel, National Science Foundation (NSF), Grant #2005572, $10,000,000.00, Oct 2021 - Sept 30, 2027 (.5 FTE academic year) (ongoing).
 
 - "Insight without Sight: Enhancing Data Literacy through Multimodal Data Science Education - Smith-Kettlewell Summer Institute," Subaward PI, Rehabilitation Engineering Research Centers (RERC) Program: RERC on Blindness and Low Vision, National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), Grant #90REGE0018-01-00, $11,975, July 17, 2023 - August 11, 2023 (completed).
 
